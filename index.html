@@ -3,29 +3,44 @@
 <head>
 <meta charset='utf-8'>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Anton Orlichenko's Webpage</title>
+<title>Anton Orlichenko's Website</title>
 <link rel="icon" type="image/png" href="/images/pig.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/style/site.css">
+<script src='/script/color.js'></script>
 <script src="/script/posts.js"></script>
+<script src="/script/links.js"></script>
+<script src='/script/footer.js'></script>
 </head>
 <body>
+<div id='content'>
+<h1>Anton Orlichenko's Website <img src='/images/pig.png' width='32' style='left: 5px; position: relative; top: 5px;'></h1>
+<div id='blurb'>3rd year Biomedical Engineering PhD student at Tulane University</div>
 <div id='links'>
+    <!-- weird indentation is because of inline-block space problem -->
     <ul>
-    <li><a href='https://aorliche.github.io/'>Home</a></li>
-    <li><a href='/cv/Anton_Orlichenko_resume.pdf'>CV</a></li>
-    <li>Research
+    <li><a href='/'>Home</a></li><li>
+    <a href='/cv/Anton_Orlichenko_resume.pdf'>CV</a></li><li>
+    <a href='#' class='category'>Research</a>
         <ul>
-        <li>Investigating Brain Connectivity with Metric Learning</li>
+        <li><a href='#'>Brain Connectivity and Metric Learning</a></li>
         </ul>
-    </li>
-    <li>Projects
+    </li><li>
+    <a href='#' class='category'>Projects</a>
         <ul>
-        <li><a href='https://hunimal.org/AI/Durak.php'>Modular AI with Memory (Card Game)</a></li>
+        <li><a href='https://hunimal.org/AI/Durak.php'>Modular AI</a></li>
+        <li><a href='https://hunimal.org/Pigcoin/'>Pigcoin Crypto</a></li>
         </ul>
-    </li>
-    <li><a href='https://hunimal.org/'>Hunimal.org</a></li>
-    <li><a href='http://www2.tulane.edu/~wyp/'>My Lab @Tulane</a></li>
+    </li><li>
+    <a href='https://hunimal.org/'>Hunimal.org</a></li><li>
+    <a href='https://github.com/aorliche/'>GitHub</a></li><li>
+    <a href='http://www2.tulane.edu/~wyp/'>Lab@Tulane</a></li>
     </ul>
 </div>
 <div id='posts'></div>
+<div id='footer'></div>
+</div>
 </body>
 </html>

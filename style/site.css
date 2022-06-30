@@ -1,0 +1,136 @@
+:root {
+    --pig: #f9bea9;
+    --pig-light: #ffe8db;
+    --purp: #d2b6dd;
+    --purp-semi: #e0cfe8;
+    --purp-light: #eee5f2;
+    --bg: #fff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+#content {
+    margin: 0 auto;
+    width: 60%;
+    min-width: 600px;
+}
+
+h1 {
+    background-color: var(--bg);
+    margin: 0px;
+    padding: 22px 0;
+    position: relative;
+    z-index: 2;
+}
+
+#blurb {
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 2;
+    background-color: var(--bg);
+}
+
+.pin {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.center {
+    text-align: center;
+}
+
+.post {
+    line-height: 120%;
+}
+
+.post img {
+    padding: 5px;
+}
+
+.post .caption {
+    font-size: 12px;
+}
+
+.post .date {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#posts {
+    margin-top: 40px;
+}
+
+#footer {
+    font-size: 12px;
+    text-align: center;
+}
+
+#links ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, li {
+    border: none;
+}
+
+#links > ul > li {
+    display: inline-block;
+}
+
+#links > ul > li a {
+    padding: 10px;
+    background-color: var(--pig);
+    text-decoration: none;
+    color: black;
+    border: 1px solid var(--pig);
+    position: relative;
+    z-index: 2;
+}
+
+#links > ul > li a.category {
+    background-color: var(--purp);
+    border: 1px solid var(--purp);
+}
+
+#links > ul ul {
+    transform: translateY(-200px);
+    transition: transform 250ms ease-in-out;
+    position: absolute;
+    z-index: 1;
+}
+
+#links > ul ul > li {
+    display: block;
+    top: 9px;
+    position: relative;
+}
+
+#links > ul ul a {
+    background-color: var(--purp-semi);
+    color: black;
+    display: inline-block;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid var(--purp);
+    border-top: none;
+}
+
+#links > ul ul > li:first-child a {
+    border-top: 1px solid var(--purp);
+}
+
+#links > ul > li > a:hover {
+    background-color: var(--pig-light);
+}
+
+#links > ul > li > a.category:hover, #links > ul ul a:hover {
+    background-color: var(--purp-light);
+}

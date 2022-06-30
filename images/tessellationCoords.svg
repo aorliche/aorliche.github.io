@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="tessellationCoords.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:snap-global="false"
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="52"
+     inkscape:window-height="720"
+     inkscape:window-width="1274"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="421.53476"
+     inkscape:cx="109.42986"
+     inkscape:zoom="0.4797488"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <rect
+       style="fill:#54ff9d;fill-opacity:0.71371;stroke-width:1.24412;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1039-0-1-0"
+       width="128.01921"
+       height="3.47452"
+       x="118.15736"
+       y="-132.77138"
+       transform="matrix(0.00123092,0.99999924,-0.99999645,0.00266522,0,0)"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-ydpi="50.685398" />
+    <rect
+       transform="matrix(-0.85913848,0.51174316,-0.52083881,-0.85365504,0,0)"
+       y="-176.51077"
+       x="-45.821777"
+       height="4.1585093"
+       width="135.10732"
+       id="rect1039-3-6"
+       style="fill:#aaabff;fill-opacity:0.637097;stroke-width:1.39826;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-ydpi="50.685398" />
+    <rect
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       style="fill:#ffaaaa;fill-opacity:0.637097;stroke-width:1.165;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1039-38"
+       width="112.2532"
+       height="3.4745038"
+       x="133.92308"
+       y="94.010307"
+       transform="rotate(34.869999)" />
+    <rect
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       transform="matrix(-0.85913848,0.51174316,-0.52083881,-0.85365504,0,0)"
+       y="-244.80415"
+       x="-60.309052"
+       height="4.1585093"
+       width="135.10732"
+       id="rect1039-3-7"
+       style="fill:#aaabff;fill-opacity:0.637097;stroke-width:1.39826;stroke-miterlimit:4;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       transform="rotate(34.869999)"
+       y="57.902405"
+       x="133.31465"
+       height="3.4745038"
+       width="112.2532"
+       id="rect1039-38-9"
+       style="fill:#ffaaaa;fill-opacity:0.637097;stroke-width:1.165;stroke-miterlimit:4;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       transform="matrix(0.00123092,0.99999924,-0.99999645,0.00266522,0,0)"
+       y="-63.12035"
+       x="120.60651"
+       height="3.47452"
+       width="128.01921"
+       id="rect1039-0-1"
+       style="fill:#54ff9d;fill-opacity:0.71371;stroke-width:1.24412;stroke-miterlimit:4;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       style="fill:#aaabff;fill-opacity:0.63709676;stroke-width:1.39826;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1039-3"
+       width="135.10732"
+       height="4.1585093"
+       x="-54.005417"
+       y="-209.6754"
+       transform="matrix(-0.85913848,0.51174317,-0.52083881,-0.85365504,0,0)" />
+    <rect
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       transform="rotate(34.869999)"
+       y="128.2626"
+       x="131.53761"
+       height="3.4745038"
+       width="112.2532"
+       id="rect1039"
+       style="fill:#ffaaaa;fill-opacity:0.63709676;stroke-width:1.165;stroke-miterlimit:4;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       style="fill:#54ff9d;fill-opacity:0.71371;stroke-width:1.24412;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1039-0"
+       width="128.01921"
+       height="3.47452"
+       x="121.06465"
+       y="-98.261368"
+       transform="matrix(0.00123092,0.99999924,-0.99999645,0.00266522,0,0)" />
+    <path
+       id="path833"
+       d="M -39.840247,35.964483 -18.559706,-0.89447808 2.4884769,35.562033 Z"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 23.769014,-1.2969288 2.4884769,35.562033 -18.559704,-0.89447908 Z"
+       id="path833-4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 2.4884739,35.562033 23.769014,-1.2969288 44.817195,35.159583 Z"
+       id="path833-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -39.840243,35.159583 -18.559703,72.018487 2.4884769,35.562033 Z"
+       id="path833-0" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       sodipodi:nodetypes="cccc"
+       id="path833-4-8"
+       d="M 175.43649,27.29268 153.96696,-8.99926 132.91878,27.457194 Z"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path833-2-3"
+       d="M 2.4884769,35.562033 23.769017,72.420937 44.817195,35.964483 Z"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       id="path877"
+       d="m 74.230774,182.91417 11.476679,-19.87818 22.828047,-0.21705 11.35137,20.09523 -11.35137,19.66115 -22.828047,-0.21705 z"
+       style="fill:none;stroke:#000000;stroke-width:0.628289;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       style="fill:none;stroke:#000000;stroke-width:0.628289;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 108.5355,163.25302 11.47668,-19.87818 22.82804,-0.21704 11.35137,20.09522 -11.35137,19.66115 -22.82804,-0.21704 z"
+       id="path877-4" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       id="path877-4-2"
+       d="m 108.5355,202.57532 11.47668,-19.87819 22.82804,-0.21704 11.35137,20.09523 -11.35137,19.66114 -22.82804,-0.21704 z"
+       style="fill:none;stroke:#000000;stroke-width:0.628289;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       id="path877-4-4"
+       d="m 74.356089,222.01942 11.476672,-19.87818 22.828039,-0.21705 11.35138,20.09523 -11.35138,19.66114 -22.828039,-0.21704 z"
+       style="fill:none;stroke:#000000;stroke-width:0.628289;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       id="path877-4-7"
+       d="m 39.926051,203.00941 11.476678,-19.87819 22.828045,-0.21705 11.351363,20.09524 -11.351363,19.66114 -22.828045,-0.21705 z"
+       style="fill:none;stroke:#000000;stroke-width:0.628289;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       id="path877-4-1"
+       d="m 40.051366,163.03599 11.476679,-19.87819 22.828044,-0.21704 11.351364,20.09523 -11.351364,19.66114 -22.828044,-0.21704 z"
+       style="fill:none;stroke:#000000;stroke-width:0.628289;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       id="path877-4-8"
+       d="m 74.356089,142.94076 11.476672,-19.87819 22.828039,-0.21704 11.35138,20.09523 -11.35138,19.66114 -22.828039,-0.21704 z"
+       style="fill:none;stroke:#000000;stroke-width:0.628289;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       id="text935"
+       y="186.28685"
+       x="82.319023"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         y="186.28685"
+         x="82.319023"
+         id="tspan933"
+         sodipodi:role="line">0,0,0</tspan></text>
+    <text
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="43.647358"
+       y="207.05701"
+       id="text935-1"><tspan
+         sodipodi:role="line"
+         id="tspan933-0"
+         x="43.647358"
+         y="207.05701"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583">-1,0,-1</tspan></text>
+    <text
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="45.250977"
+       y="166.96657"
+       id="text935-3"><tspan
+         sodipodi:role="line"
+         id="tspan933-2"
+         x="45.250977"
+         y="166.96657"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583">0,-1,-1</tspan></text>
+    <text
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       id="text935-3-5"
+       y="168.03564"
+       x="116.89656"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         y="168.03564"
+         x="116.89656"
+         id="tspan933-2-5"
+         sodipodi:role="line">1,0,1</tspan></text>
+    <text
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="80.904472"
+       y="227.90404"
+       id="text935-3-5-1"><tspan
+         sodipodi:role="line"
+         id="tspan933-2-5-1"
+         x="80.904472"
+         y="227.90404"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583">-1,1,0</tspan></text>
+    <text
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="118.05494"
+       y="207.85881"
+       id="text935-3-5-3"><tspan
+         sodipodi:role="line"
+         id="tspan933-2-5-2"
+         x="118.05494"
+         y="207.85881"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583">0,1,1</tspan></text>
+    <text
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="79.361015"
+       y="148.79224"
+       id="text935-3-5-4"><tspan
+         sodipodi:role="line"
+         id="tspan933-2-5-0"
+         x="79.361015"
+         y="148.79224"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583">1,-1,0</tspan></text>
+    <text
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#ff8080;fill-opacity:1;stroke-width:0.264583"
+       x="148.44365"
+       y="226.5891"
+       id="text935-3-5-8"><tspan
+         sodipodi:role="line"
+         id="tspan933-2-5-8"
+         x="148.44365"
+         y="226.5891"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Arial;-inkscape-font-specification:Arial;fill:#ff8080;fill-opacity:1;stroke-width:0.264583">equal x</tspan></text>
+    <text
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       id="text935-3-5-8-9"
+       y="253.9442"
+       x="86.68148"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#00a545;fill-opacity:1;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Arial;-inkscape-font-specification:Arial;fill:#00a545;fill-opacity:1;stroke-width:0.264583"
+         y="253.9442"
+         x="86.68148"
+         id="tspan933-2-5-8-5"
+         sodipodi:role="line">equal z</tspan></text>
+    <text
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#2b30ff;fill-opacity:1;stroke-width:0.264583"
+       x="27.375643"
+       y="228.55359"
+       id="text935-3-5-8-9-3"><tspan
+         sodipodi:role="line"
+         id="tspan933-2-5-8-5-8"
+         x="27.375643"
+         y="228.55359"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Arial;-inkscape-font-specification:Arial;fill:#2b30ff;fill-opacity:1;stroke-width:0.264583">equal y</tspan></text>
+    <text
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="84.53421"
+       y="191.2881"
+       id="text935-6"><tspan
+         sodipodi:role="line"
+         id="tspan933-5"
+         x="84.53421"
+         y="191.2881"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583">x     y     z</tspan></text>
+    <text
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\HexCoordinates.png"
+       id="text935-3-5-3-1"
+       y="274.67383"
+       x="83.541008"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         y="274.67383"
+         x="83.541008"
+         id="tspan933-2-5-2-5"
+         sodipodi:role="line">z=x+y</tspan></text>
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 175.3907,27.706092 153.92117,63.998029 132.87299,27.541579 Z"
+       id="path833-4-8-5"
+       sodipodi:nodetypes="cccc" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 196.58027,63.581469 175.11074,27.289527 154.06256,63.745989 Z"
+       id="path833-4-8-2"
+       sodipodi:nodetypes="cccc" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       sodipodi:nodetypes="cccc"
+       id="path833-4-8-5-8"
+       d="M 196.53448,63.994889 175.06495,100.28682 154.01677,63.830369 Z"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       sodipodi:nodetypes="cccc"
+       id="path833-4-8-2-3"
+       d="M 154.38109,63.937984 132.91156,27.646041 111.86337,64.102504 Z"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 154.33529,64.351404 132.86577,100.64333 111.81758,64.186884 Z"
+       id="path833-4-8-5-8-0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       sodipodi:nodetypes="cccc"
+       id="path833-4-8-2-1"
+       d="M 196.07513,-9.2938693 174.6056,-45.585811 153.55742,-9.1293483 Z"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 196.02934,-8.8804473 174.55981,27.411482 153.51163,-9.0449673 Z"
+       id="path833-4-8-5-8-2"
+       sodipodi:nodetypes="cccc" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       sodipodi:nodetypes="cccc"
+       id="path833-4-8-2-9"
+       d="M 154.91562,-9.8284081 133.44609,-46.120349 112.39791,-9.6638871 Z"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 154.86983,-9.4149861 133.4003,26.876944 112.35212,-9.5795061 Z"
+       id="path833-4-8-5-8-9"
+       sodipodi:nodetypes="cccc" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       sodipodi:nodetypes="cccc"
+       id="path833-4-8-2-2"
+       d="M 217.45669,27.044042 195.98716,-9.2478996 174.93898,27.208563 Z"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 217.41089,27.457464 -21.46952,36.29193 -21.04818,-36.45645 z"
+       id="path833-4-8-5-8-92"
+       sodipodi:nodetypes="cccc" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 134.0686,27.054786 112.59907,-9.2371548 91.55089,27.219307 Z"
+       id="path833-4-8-2-2-5"
+       sodipodi:nodetypes="cccc" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       sodipodi:nodetypes="cccc"
+       id="path833-4-8-5-8-92-2"
+       d="M 134.0228,27.468208 112.55328,63.760138 91.5051,27.303688 Z"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       id="path1338"
+       d="m 132.03115,27.261492 21.9161,-36.883195 21.38156,37.417732 -21.38156,36.348657 z"
+       style="fill:none;stroke:#ff0000;stroke-width:1.965;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    <text
+       id="text935-3-5-4-9"
+       y="-13.974896"
+       x="131.43578"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;fill:#ff0000;fill-opacity:0.976471;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-ydpi="50.685398"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Arial;-inkscape-font-specification:Arial;fill:#ff0000;fill-opacity:0.976471;stroke-width:0.264583"
+         y="-13.974896"
+         x="131.43578"
+         id="tspan933-2-5-0-8"
+         sodipodi:role="line">unit cell</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="144.58015"
+       y="19.690323"
+       id="text935-3-5-5"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-ydpi="50.685398"><tspan
+         sodipodi:role="line"
+         id="tspan933-2-5-5"
+         x="144.58015"
+         y="19.690323"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583">0,0,0</tspan></text>
+    <text
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       id="text935-3-5-5-6"
+       y="40.411652"
+       x="144.55867"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         y="40.411652"
+         x="144.55867"
+         id="tspan933-2-5-5-0"
+         sodipodi:role="line">0,0,1</tspan></text>
+    <text
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       id="text935-3-5-5-7"
+       y="54.828091"
+       x="164.33661"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         y="54.828091"
+         x="164.33661"
+         id="tspan933-2-5-5-4"
+         sodipodi:role="line">0,1,1</tspan></text>
+    <text
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       id="text935-3-5-5-3"
+       y="53.75901"
+       x="123.71165"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         y="53.75901"
+         x="123.71165"
+         id="tspan933-2-5-5-8"
+         sodipodi:role="line">1,0,1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="102.08494"
+       y="41.999153"
+       id="text935-3-5-5-3-5"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-ydpi="50.685398"><tspan
+         sodipodi:role="line"
+         id="tspan933-2-5-5-8-5"
+         x="102.08494"
+         y="41.999153"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583">1,-1,1</tspan></text>
+    <text
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       id="text935-3-5-5-3-5-6"
+       y="21.15213"
+       x="101.74014"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         y="21.15213"
+         x="101.74014"
+         id="tspan933-2-5-5-8-5-2"
+         sodipodi:role="line">1,-1,0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="124.53558"
+       y="78.882347"
+       id="text935-3-5-5-3-6"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-ydpi="50.685398"><tspan
+         sodipodi:role="line"
+         id="tspan933-2-5-5-8-4"
+         x="124.53558"
+         y="78.882347"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583">1,0,2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="164.37671"
+       y="76.209656"
+       id="text935-3-5-5-7-7"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-ydpi="50.685398"><tspan
+         sodipodi:role="line"
+         id="tspan933-2-5-5-4-6"
+         x="164.37671"
+         y="76.209656"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583">0,1,2</tspan></text>
+    <text
+       inkscape:export-ydpi="50.685398"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       id="text935-3-5-5-3-5-1"
+       y="42.800961"
+       x="185.96747"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         y="42.800961"
+         x="185.96747"
+         id="tspan933-2-5-5-8-5-8"
+         sodipodi:role="line">-1,1,1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="185.62268"
+       y="21.953938"
+       id="text935-3-5-5-3-5-6-1"
+       inkscape:export-filename="C:\Users\aorli\Documents\Website\aorliche.github.io\images\Blog\TriangleCoordinates.png"
+       inkscape:export-xdpi="50.685398"
+       inkscape:export-ydpi="50.685398"><tspan
+         sodipodi:role="line"
+         id="tspan933-2-5-5-8-5-2-9"
+         x="185.62268"
+         y="21.953938"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583">-1,1,0</tspan></text>
+    <path
+       inkscape:export-ydpi="22.97826"
+       inkscape:export-xdpi="22.97826"
+       sodipodi:nodetypes="cccccc"
+       d="M 51.118942,97.078718 68.42895,79.768711 70.492153,81.831914 53.182146,99.141921 49.611281,100.64958 Z"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.389;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1516" />
+    <path
+       inkscape:export-ydpi="22.97826"
+       inkscape:export-xdpi="22.97826"
+       sodipodi:nodetypes="ccccccccc"
+       d="m 55.180567,86.054215 4.255649,-0.603927 8.364486,-8.770213 0.963127,-3.397606 7.879735,7.879735 -2.949748,1.225322 -9.302331,8.389376 -0.316811,4.17142 z"
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.269;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1518" />
+  </g>
+</svg>
