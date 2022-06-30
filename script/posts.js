@@ -92,6 +92,7 @@ window.addEventListener('load', e => {
         let n = list.length;
         function checkFinish() {
             if (--n == 0) {
+                console.log(posts);
                 populatePosts();
             }
         }
