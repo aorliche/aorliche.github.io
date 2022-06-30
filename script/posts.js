@@ -90,6 +90,7 @@ window.addEventListener('load', e => {
     
     function getPosts(list) {
         let n = list.length;
+        console.log(list);
         function checkFinish() {
             if (--n == 0) {
                 console.log(posts);
