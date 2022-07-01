@@ -39,6 +39,8 @@ h1 {
 .pin {
     font-size: 12px;
     font-weight: normal;
+    position: relative;
+    top: 1px;
 }
 
 .center {
@@ -60,15 +62,35 @@ h1 {
 .post .date {
     font-size: 16px;
     margin-right: 10px;
+    float: right;
+    font-weight: normal;
+}
+
+.post .title {
+    margin-right: 4px;
 }
 
 #posts {
     margin-top: 40px;
 }
 
+#posts h4.recent {
+    background-color: var(--pig);
+    padding: 5px;
+    font-weight: normal;
+}
+
+#quote {
+    font-size: 12px;
+    font-style: italic;
+    top: 24px;
+    position: relative;
+}
+
 #footer {
     font-size: 12px;
     text-align: center;
+    margin-top: 10px;
 }
 
 #links ul {

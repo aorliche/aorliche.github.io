@@ -3,7 +3,8 @@ window.addEventListener('load', e => {
     const postsDiv = document.querySelector('#posts');
     
     function populatePosts() {
-        let gotFirst = false;
+        let gotFirstUnpinned = false;
+        let gotFirstPinned = false;
         posts.forEach(post => post.date = new Date(post.date));
         posts.sort((a,b) => b.date-a.date);
         for (let i=0; i<posts.length; i++) {
@@ -15,34 +16,41 @@ window.addEventListener('load', e => {
             const pinned = posts.filter(post => post.pinned);
             const unpinned = posts.filter(post => !post.pinned);
             pinned.concat(unpinned).forEach(post => {
-                if (!gotFirst && !post.pinned) {
+                if (!gotFirstPinned && post.pinned) {
                     const h4 = document.createElement('h4');
-                    h4.innerText = 'Recent Posts';
+                    h4.innerText = `Pinned Posts (${pinned.length})`;
+                    h4.classList.add('recent');
                     postsDiv.appendChild(h4);
-                    gotFirst = true;
+                    gotFirstPinned = true;
+                }
+                if (!gotFirstUnpinned && !post.pinned) {
+                    const h4 = document.createElement('h4');
+                    h4.innerText = `Recent Posts (${unpinned.length})`;
+                    h4.classList.add('recent');
+                    postsDiv.appendChild(h4);
+                    gotFirstUnpinned = true;
                 }
                 const pdiv = document.createElement('div');
                 pdiv.classList.add('post');
+                pdiv.id = encodeURIComponent(post.href);
                 const date = document.createElement('span');
                 date.classList.add('date');
                 date.innerText = post.date.toDateString();
                 const h2 = document.createElement('h2');
-                h2.innerText = post.title + ' ';
+                const title = document.createElement('a');
+                title.classList.add('title');
+                title.href = `#${pdiv.id}`;
+                title.innerText = post.title;
+                h2.appendChild(title);
                 if (post.pinned) {
-                    const pin = document.createElement('span');
                     const img = document.createElement('img');
-                    pin.classList.add('pin');
-                    pin.innerText = '[Pinned] ';
                     img.src = '/images/pin.png';
                     img.style.height = '14px';
                     img.style.top = '6px';
                     img.style.position = 'relative';
-                    //h2.prepend(pin);
                     h2.prepend(img);
                 }
                 h2.prepend(date);
-                //const below = document.createElement('div');
-                //below.innerText = `Posted by ${post.author} on ${post.date.toString()}`;
                 const showBefore = document.createElement('a');
                 showBefore.classList.add('pin');
                 showBefore.innerText = 'Show';
@@ -50,12 +58,7 @@ window.addEventListener('load', e => {
                 h2.appendChild(showBefore);
                 const body = document.createElement('div');
                 body.innerHTML = post.body;
-                if (!post.pinned) {
-                    body.appendChild(document.createElement('hr'));
-                    body.prepend(document.createElement('hr'));
-                }
                 pdiv.appendChild(h2);
-                //pdiv.appendChild(below);
                 pdiv.appendChild(body);
                 postsDiv.appendChild(pdiv);
                 if (post.pinned) {
@@ -79,6 +82,11 @@ window.addEventListener('load', e => {
                         showBefore.innerText = 'Show';
                     }
                 });
+                title.addEventListener('click', e => {
+                    e.preventDefault();
+                    body.style.display = 'block';
+                    showBefore.innerText = 'Hide';
+                });
                 hideAfterP.addEventListener('click', e => {
                     e.preventDefault();
                     body.style.display = 'none';
@@ -90,10 +98,8 @@ window.addEventListener('load', e => {
     
     function getPosts(list) {
         let n = list.length;
-        console.log(list);
         function checkFinish() {
             if (--n == 0) {
-                console.log(posts);
                 populatePosts();
             }
         }
@@ -101,6 +107,7 @@ window.addEventListener('load', e => {
             fetch(`/posts/${post}`)
                 .then(response => response.json())
                 .then(content => {
+                    content.href = post.replace(/\.[^/.]+$/, "");
                     posts.push(content);
                     checkFinish();
                 })
