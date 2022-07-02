@@ -58,6 +58,7 @@ window.addEventListener('load', e => {
                 h2.appendChild(showBefore);
                 const body = document.createElement('div');
                 body.innerHTML = post.body;
+                body.classList.add('body');
                 pdiv.appendChild(h2);
                 pdiv.appendChild(body);
                 postsDiv.appendChild(pdiv);
