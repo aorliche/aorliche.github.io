@@ -24,6 +24,10 @@ window.addEventListener('load', e => {
                     gotFirstPinned = true;
                 }
                 if (!gotFirstUnpinned && !post.pinned) {
+					// Make last hr disappear
+					if (postsDiv.lastChild && postsDiv.lastChild.classList.contains('post')) {
+						postsDiv.lastChild.lastChild.style.display = 'none';
+					}
                     const h4 = document.createElement('h4');
                     h4.innerText = `Recent Posts (${unpinned.length})`;
                     h4.classList.add('recent');
@@ -61,6 +65,8 @@ window.addEventListener('load', e => {
                 body.classList.add('body');
                 pdiv.appendChild(h2);
                 pdiv.appendChild(body);
+				const hr = document.createElement('hr');
+				pdiv.appendChild(hr);
                 postsDiv.appendChild(pdiv);
                 if (post.pinned) {
                     showBefore.innerText = 'Hide';

@@ -26,6 +26,11 @@ h1 {
     z-index: 2;
 }
 
+hr {
+	border: 3px solid var(--pig);
+	border-radius: 2px;
+}
+
 #blurb {
     font-size: 12px;
     position: relative;
@@ -75,6 +80,10 @@ h1 {
 
 .post .title {
     margin-right: 4px;
+}
+
+.post:last-child > hr {
+	display: none;
 }
 
 #posts {
