@@ -3,22 +3,34 @@
 <head>
 <meta charset='utf-8'>
 <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
-<title>Anton Orlichenko's Website</title>
+<title>Pig Art</title>
 <link rel="icon" type="image/png" href="/images/pig.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/style/site.css">
 <script src='/script/color.js'></script>
-<script src="/script/posts.js"></script>
 <script src="/script/links.js"></script>
 <script src='/script/footer.js'></script>
-<script src='/script/quotes.js'></script>
+<style>
+.thumb {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+    padding-left: 0px;
+}
+.thumb > img {
+    max-width: 200px;
+    max-height: 300px;
+}
+</style>
 </head>
 <body>
 <div id='content'>
-<h1>Anton Orlichenko's Website <img src='/images/pig.png' width='32' style='left: 5px; position: relative; top: 5px;'></h1>
-<div id='blurb'>3rd year Biomedical Engineering PhD student at Tulane University</div>
+<h1>Pig Art<img src='/images/pig.png' width='32' style='left: 5px; position: relative; top: 5px;'></h1>
+<div id='blurb'>Historical figures as pigs? Swine not?</div>
 <div id='links'>
     <!-- weird indentation is because of inline-block space problem -->
     <ul>
@@ -41,8 +53,26 @@
     <a href='http://www2.tulane.edu/~wyp/'>Lab@Tulane</a></li>
     </ul>
 </div>
-<div id='quote'></div>
-<div id='posts'></div>
+<h3 style='margin-top: 40px'>What about pigs?</h3>
+<p>Pigs are indeed avaricious, but are generally pleasant looking, and have provided important contributions to the field of resource utilization (excepting the sub-discipline of accoustics). They are great football players, on account of their high fat content. You can often see a hog in a suit and tie, but when you do, please help him or her out!<p>
+<div id='gallery'>
+    <div class='thumb'>
+        <img src='/images/Art/PigPeople/ApigoniusOfPorca.jpg'>
+        <p>Apigonius of Porca</p>
+    </div>
+    <div class='thumb'>
+        <img src='/images/Art/PigPeople/Piggybek.jpg'>
+        <p>Piggybek, Egyptian Pig God of Crocodiles</p>
+    </div>
+    <div class='thumb'>
+        <img src='/images/Art/PigPeople/SuidaeValentine.jpg'>
+        <p>Suidae Valentine</p>
+    </div>
+    <div class='thumb'>
+        <img src='/images/Art/PigPeople/PartyOfPigs.jpg'>
+        <p>A barebones adventure</p>
+    </div>
+</div>
 <div id='footer'></div>
 </div>
 </body>
