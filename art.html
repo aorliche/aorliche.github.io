@@ -13,7 +13,7 @@
 <script src="/script/links.js"></script>
 <script src='/script/footer.js'></script>
 <style>
-.thumb {
+.thumb, .wide {
     display: inline-block;
     width: 200px;
     text-align: center;
@@ -21,9 +21,16 @@
     padding: 10px;
     padding-left: 0px;
 }
+.wide {
+	width: 300px;
+}
 .thumb > img {
     max-width: 200px;
     max-height: 300px;
+}
+.wide > img {
+	max-height: 250px;
+	max-width: 300px;
 }
 </style>
 </head>
@@ -72,6 +79,10 @@
         <img src='/images/Art/PigPeople/PartyOfPigs.jpg'>
         <p>A barebones adventure</p>
     </div>
+	<div class='thumb wide'>
+		<img src='/images/Art/PigPeople/HarrySnouter.jpg'>
+		<p>Harry Snouter</p>
+	</div>
 </div>
 <div id='footer'></div>
 </div>
