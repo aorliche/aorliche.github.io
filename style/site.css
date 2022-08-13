@@ -10,12 +10,16 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+    background-color: var(--pig);
 }
 
 #content {
-    margin: 0 auto;
+    margin: 20px auto;
     width: 75%;
     min-width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--bg);
 }
 
 h1 {
@@ -83,7 +87,7 @@ hr {
 }
 
 .post:last-child > hr {
-	display: none;
+	margin-top: 30px;
 }
 
 #posts {
@@ -106,7 +110,8 @@ hr {
 #footer {
     font-size: 12px;
     text-align: center;
-    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #links ul {
@@ -139,7 +144,7 @@ ul, li {
 }
 
 #links > ul ul {
-    transform: translateY(-200px);
+    transform: translateY(-140px);
     transition: transform 250ms ease-in-out;
     position: absolute;
     z-index: 1;
@@ -147,7 +152,7 @@ ul, li {
 
 #links > ul ul > li {
     display: block;
-    top: 9px;
+    top: 10px;
     position: relative;
 }
 
