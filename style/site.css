@@ -13,7 +13,7 @@ body {
     background-color: var(--pig);
 }
 
-#curtain {
+.curtain {
     height: 10px;
     position: relative;
     z-index: 2;
