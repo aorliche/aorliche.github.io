@@ -46,7 +46,7 @@ h1 {
 }
 
 hr {
-	border: 3px solid var(--pig);
+	border: 3px solid var(--pig-light);
 	border-radius: 10px;
 }
 
@@ -110,7 +110,7 @@ hr {
 }
 
 #posts h4.recent {
-    background-color: var(--pig);
+    background-color: var(--pig-light);
     padding: 5px;
     font-weight: normal;
     border-radius: 5px;
