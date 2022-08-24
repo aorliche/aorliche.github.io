@@ -10,21 +10,21 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
-    background-color: var(--pig);
+    background-color: var(--pig-light);
 }
 
 .curtain {
     height: 10px;
     position: relative;
     z-index: 2;
-    background-color: var(--pig);
+    background-color: var(--pig-light);
 }
 
 #content {
     margin: 0px auto;
     width: 75%;
     min-width: 600px;
-    background-color: var(--pig);
+    background-color: var(--pig-light);
 }
 
 #curtain, #inner-content {

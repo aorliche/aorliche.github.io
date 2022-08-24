@@ -1,0 +1,24 @@
+.thumb {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+    margin: 2px;
+    border: 2px solid var(--pig);
+}
+.thumb:hover {
+    cursor: pointer;
+    background-color: var(--purp-light);
+}
+.wide {
+	width: 300px;
+}
+.thumb > img {
+    max-width: 200px;
+    max-height: 300px;
+}
+.wide > img {
+	max-height: 250px;
+	max-width: 300px;
+}
