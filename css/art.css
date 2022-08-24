@@ -5,11 +5,12 @@
     vertical-align: top;
     padding: 10px;
     margin: 2px;
-    border: 2px solid var(--pig);
+    border: 1px solid var(--purp);
+    background-color: var(--purp-light);
 }
 .thumb:hover {
     cursor: pointer;
-    background-color: var(--purp-light);
+    background-color: var(--pig-light);
 }
 .wide {
 	width: 300px;
