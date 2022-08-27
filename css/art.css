@@ -1,26 +1,27 @@
 .thumb {
     display: inline-block;
-    width: 200px;
+    width: 250px;
     text-align: center;
-    vertical-align: top;
+    vertical-align: center;
     padding: 10px;
     margin: 2px;
     border: 1px solid rgba(0,0,0,0);
 }
-
 .thumb:hover {
     cursor: pointer;
     border: 1px solid var(--pig);
     background-color: var(--pig-light);
 }
-.wide {
-	width: 300px;
-}
 .thumb > img {
     max-width: 200px;
-    max-height: 300px;
+    max-height: 250px;
 }
 .wide > img {
-	max-height: 250px;
-	max-width: 300px;
+	max-height: 200px;
+	max-width: 250px;
+}
+.overtall {
+    position: relative;
+    top: 20px;
+    margin-bottom: 20px;
 }
