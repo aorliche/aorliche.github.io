@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 12px;
     margin: 0px;
     background-color: var(--pig-light);
 }
@@ -118,7 +119,7 @@ hr {
 
 #quote {
     font-size: 12px;
-    font-style: italic;
+    /*font-style: italic;*/
     top: 24px;
     position: relative;
 }
@@ -142,6 +143,7 @@ ul, li {
 
 #links > ul > li {
     display: inline-block;
+    font-size: 14px;
 }
 
 #links > ul > li a {
