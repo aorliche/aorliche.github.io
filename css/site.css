@@ -11,21 +11,21 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     margin: 0px;
-    background-color: var(--pig-light);
+    background-color: var(--pig);
 }
 
 .curtain {
     height: 10px;
     position: relative;
     z-index: 2;
-    background-color: var(--pig-light);
+    background-color: var(--pig);
 }
 
 #content {
     margin: 0px auto;
     width: 75%;
     min-width: 600px;
-    background-color: var(--pig-light);
+    background-color: var(--pig);
 }
 
 #curtain, #inner-content {
@@ -46,10 +46,10 @@ h1 {
     z-index: 2;
 }
 
-hr {
+/*hr {
 	border: 3px solid var(--pig-light);
 	border-radius: 10px;
-}
+}*/
 
 #blurb {
     font-size: 12px;
@@ -73,11 +73,18 @@ hr {
 }
 
 .post {
-    font-size: 14px;
+    font-size: 12px;
 }
 
-.post .body {
-    line-height: 140%;
+.post h2 {
+    padding: 10px;
+    background-color: var(--pig);
+    margin: 0px;
+    margin-bottom: 1px;
+}
+
+/*.post .body*/ body {
+    line-height: 160%;
 }
 
 .post img {
@@ -85,7 +92,7 @@ hr {
 }
 
 .post .caption {
-    line-height: 100%;
+    /*line-height: 100%;*/
     font-size: 12px;
 }
 
@@ -102,20 +109,20 @@ hr {
     margin-right: 4px;
 }
 
-.post:last-child > hr {
+/*.post:last-child > hr {
 	margin-top: 30px;
-}
+}*/
 
 #posts {
     margin-top: 40px;
 }
 
-#posts h4.recent {
+/*#posts h4.recent {
     background-color: var(--pig-light);
     padding: 5px;
     font-weight: normal;
     border-radius: 5px;
-}
+}*/
 
 #quote {
     font-size: 12px;

@@ -16,14 +16,14 @@ window.addEventListener('load', e => {
             const pinned = posts.filter(post => post.pinned);
             const unpinned = posts.filter(post => !post.pinned);
             pinned.concat(unpinned).forEach(post => {
-                if (!gotFirstPinned && post.pinned) {
+                /*if (!gotFirstPinned && post.pinned) {
                     const h4 = document.createElement('h4');
                     h4.innerText = `Pinned Posts (${pinned.length})`;
                     h4.classList.add('recent');
                     postsDiv.appendChild(h4);
                     gotFirstPinned = true;
-                }
-                if (!gotFirstUnpinned && !post.pinned) {
+                }*/
+                /*if (!gotFirstUnpinned && !post.pinned) {
 					// Make last hr disappear
 					if (postsDiv.lastChild && postsDiv.lastChild.classList.contains('post')) {
 						postsDiv.lastChild.lastChild.style.display = 'none';
@@ -33,7 +33,7 @@ window.addEventListener('load', e => {
                     h4.classList.add('recent');
                     postsDiv.appendChild(h4);
                     gotFirstUnpinned = true;
-                }
+                }*/
                 const pdiv = document.createElement('div');
                 pdiv.classList.add('post');
                 pdiv.id = encodeURIComponent(post.href);
@@ -46,14 +46,14 @@ window.addEventListener('load', e => {
                 title.href = `#${pdiv.id}`;
                 title.innerText = post.title;
                 h2.appendChild(title);
-                if (post.pinned) {
+                /*if (post.pinned) {
                     const img = document.createElement('img');
                     img.src = '/images/pin.png';
                     img.style.height = '14px';
                     img.style.top = '6px';
                     img.style.position = 'relative';
                     h2.prepend(img);
-                }
+                }*/
                 h2.prepend(date);
                 const showBefore = document.createElement('a');
                 showBefore.classList.add('pin');
@@ -65,8 +65,8 @@ window.addEventListener('load', e => {
                 body.classList.add('body');
                 pdiv.appendChild(h2);
                 pdiv.appendChild(body);
-				const hr = document.createElement('hr');
-				pdiv.appendChild(hr);
+				/*const hr = document.createElement('hr');
+				pdiv.appendChild(hr);*/
                 postsDiv.appendChild(pdiv);
                 if (post.pinned) {
                     showBefore.innerText = 'Hide';
