@@ -5,54 +5,40 @@
     --purp-semi: #e0cfe8;
     --purp-light: #eee5f2;
     --bg: #fff;
+    --charcoal: #333;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-family: sans-serif;
+    font-size: 14px;
     margin: 0px;
-    background-color: var(--pig);
-}
-
-.curtain {
-    height: 10px;
-    position: relative;
-    z-index: 2;
-    background-color: var(--pig);
 }
 
 #content {
     margin: 0px auto;
     width: 75%;
-    min-width: 600px;
-    background-color: var(--pig);
-}
-
-#curtain, #inner-content {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-#inner-content {
-    border-radius: 10px;
-    background-color: var(--bg);
+    min-width: 800px;
 }
 
 h1 {
     background-color: var(--bg);
     margin: 0px;
-    padding: 22px 0;
+    padding: 25px 0;
     position: relative;
     z-index: 2;
 }
 
-/*hr {
-	border: 3px solid var(--pig-light);
-	border-radius: 10px;
-}*/
+#header {
+    display: inline-block;
+}
+
+.photo {
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100px;
+}
 
 #blurb {
-    font-size: 12px;
     position: relative;
     top: -10px;
     padding-bottom: 20px;
@@ -61,30 +47,32 @@ h1 {
     background-color: var(--bg);
 }
 
-.pin {
-    font-size: 12px;
-    font-weight: normal;
+#quote {
+    top: 30px;
     position: relative;
-    margin-left: 5px;
+}
+
+.first {
+    margin-top: 30px;
 }
 
 .center {
     text-align: center;
 }
 
-.post {
-    font-size: 12px;
+#posts {
+    margin-top: 40px;
 }
 
 .post h2 {
+    /*border-bottom: 1px solid var(--charcoal);*/
     padding: 10px;
-    background-color: var(--pig);
-    margin: 0px;
-    margin-bottom: 1px;
 }
 
-/*.post .body*/ body {
-    line-height: 160%;
+.post h2 .pin {
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 5px;
 }
 
 .post img {
@@ -92,43 +80,13 @@ h1 {
 }
 
 .post .caption {
-    /*line-height: 100%;*/
     font-size: 12px;
 }
 
 .post .date {
     font-size: 16px;
     margin-right: 10px;
-    float: right;
     font-weight: normal;
-    position: relative;
-    top: 8px;
-}
-
-.post .title {
-    margin-right: 4px;
-}
-
-/*.post:last-child > hr {
-	margin-top: 30px;
-}*/
-
-#posts {
-    margin-top: 40px;
-}
-
-/*#posts h4.recent {
-    background-color: var(--pig-light);
-    padding: 5px;
-    font-weight: normal;
-    border-radius: 5px;
-}*/
-
-#quote {
-    font-size: 12px;
-    /*font-style: italic;*/
-    top: 24px;
-    position: relative;
 }
 
 #footer {
