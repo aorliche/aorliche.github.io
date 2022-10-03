@@ -1,27 +1,40 @@
 .thumb {
     display: inline-block;
-    width: 250px;
-    text-align: center;
-    vertical-align: bottom;
-    padding: 10px;
-    margin: 2px;
-    border: 1px solid var(--charcoal);
-    height: 320px;
+    padding: 5px;
+    flex-shrink: 0;
+    border: 1px solid rgba(0,0,0,0);
 }
 .thumb:hover {
     cursor: pointer;
-    background-color: var(--pig-light);
+    border: 1px solid red;
 }
 .thumb > img {
-    max-width: 200px;
-    max-height: 250px;
+    height: 150px;
 }
-.wide > img {
-	max-height: 200px;
-	max-width: 250px;
+.gallery {
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
 }
-.overtall {
-    position: relative;
-    top: 20px;
-    margin-bottom: 20px;
+.hidden {
+    display: none;
 }
+#title {
+    text-align: center;
+}
+#big {
+    text-align: center;
+}
+#big img {
+    max-width: 60%;
+}
+#gallery-select {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+#gallery-select li {
+    display: inline-block;
+}
+
