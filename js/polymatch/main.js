@@ -19,22 +19,15 @@ function loadImage(dict, src) {
     img.addEventListener('load', () => loadImageCb(dict, src, img));
 }
 
-function beginLoad() {
-    // For dynamic script loading
-    if (nscripts == nscriptsloaded) {
-        audio = new Sounds();
-        images.forEach(src => loadImage(assets, src));
-        sounds.forEach(src => audio.load(basename(src), src));
-        music.forEach(src => audio.loadMusic(basename(src), src));
-    } else {
-        setTimeout(beginLoad, 100);
-    }
-}
-
-beginLoad();
+window.addEventListener('load', e => {
+    audio = new Sounds();
+    images.forEach(src => loadImage(assets, src));
+    sounds.forEach(src => audio.load(basename(src), src));
+    music.forEach(src => audio.loadMusic(basename(src), src));
+});
 
 function startGame() {
-    const canvas = $('#polymatch-canvas');
+    const canvas = $('canvas');
     const ctx = canvas.getContext('2d');
     grid = new Grid({dim: {w: canvas.width, h: canvas.height}, type: 'hex', 
         irange: [-9,9], jrange: [-9,9] ,size: 30, angle: 0, ctx: ctx, assets: assets});
