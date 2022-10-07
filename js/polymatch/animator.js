@@ -16,9 +16,17 @@
         this.CLEARREMOVE = 200;
         this.MSGSTART = dim.h/7;
         this.MSGSPACE = 15;
+        this.prevts = null;
     }
 
-    animate() {
+    animate(ts) {
+        if (this.prevts && ts-this.prevts < 1000/60-1) {
+            this.prevts = ts;
+            if (this.running) 
+                requestAnimationFrame(e => this.animate());
+            return;
+        }
+        this.prevts = ts;
         const clearspeed = this.grid.state == 'intro' ? this.INTROCLEARSPEED : this.CLEARSPEED;
         this.polys = this.polys.filter(p => {
             // params.center can be set to .to and .to can be set to null in clear()
@@ -52,7 +60,7 @@
         this.grid.tick();
         this.repaint();
         if (this.running) 
-            requestAnimationFrame(e => this.animate());
+            requestAnimationFrame(e => this.animate(e));
     }
 
     calcMessagePositions() {
