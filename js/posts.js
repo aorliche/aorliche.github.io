@@ -1,6 +1,9 @@
 var $ = q => document.querySelector(q);
 var $$ = q => [...document.querySelectorAll(q)];
 
+var nscripts = 0;
+var nscriptsloaded = 0;
+
 window.addEventListener('load', e => {
     let nposts = null;
     let nrecvd = 0;
@@ -9,6 +12,11 @@ window.addEventListener('load', e => {
     function nodeScriptClone(node) {
         var script  = document.createElement("script");
         script.text = node.innerHTML;
+        
+        nscripts += 1;
+        script.addEventListener('load', e => {
+            nscriptsloaded++;
+        });
 
         var i = -1, attrs = node.attributes, attr;
         while ( ++i < attrs.length ) {

@@ -1,9 +1,8 @@
 var $ = e => document.querySelector(e);
-var grid;
+var grid, audio;
 var images = ['/images/polymatch/blast.png', '/images/polymatch/rotate.png', '/images/polymatch/lost.png', '/images/polymatch/polymatch.png'];
 var sounds = ['/sounds/polymatch/clear.mp3', '/sounds/polymatch/swap.mp3', '/sounds/polymatch/plus.mp3', '/sounds/polymatch/blast.mp3', '/sounds/polymatch/klaxon.wav', '/sounds/polymatch/lost.wav', '/sounds/polymatch/whoosh.flac'];
 var music = ['/sounds/polymatch/space-loop.wav'];
-var audio = audio = new Sounds();
 var assets = {};
 var nloaded = 0;
 
@@ -20,9 +19,19 @@ function loadImage(dict, src) {
     img.addEventListener('load', () => loadImageCb(dict, src, img));
 }
 
-images.forEach(src => loadImage(assets, src));
-sounds.forEach(src => audio.load(basename(src), src));
-music.forEach(src => audio.loadMusic(basename(src), src));
+function beginLoad() {
+    // For dynamic script loading
+    if (nscripts == nscriptsloaded) {
+        audio = new Sounds();
+        images.forEach(src => loadImage(assets, src));
+        sounds.forEach(src => audio.load(basename(src), src));
+        music.forEach(src => audio.loadMusic(basename(src), src));
+    } else {
+        setTimeout(beginLoad, 100);
+    }
+}
+
+beginLoad();
 
 function startGame() {
     const canvas = $('#polymatch-canvas');
