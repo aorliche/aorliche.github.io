@@ -28,7 +28,9 @@ window.addEventListener('load', e => {
     // All posts have been loaded
     function mergePosts() {
         posts.sort((a,b) => b[1]-a[1]);
-        posts.forEach(p => $('#posts').appendChild(p[0]));
+        posts.forEach(p => {
+            $('#posts').appendChild(p[0]);
+        });
     }
     
     // Get posts

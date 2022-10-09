@@ -1,14 +1,18 @@
 <h2>
-    <span class='date'>Thu Oct 06 2022</span>
+    <span class='date'>Sun Oct 09 2022</span>
     <a class='title' href='#EntropyReg'>Entropy Regularization: An Alternative to L1-Induced Sparsity</a>
     <a class='pin' href='#'>Hide</a>
 </h2>
 <div class='body'>
     <link rel="stylesheet" href="https://fred-wang.github.io/MathFonts/LatinModern/mathfonts.css"/>
     <p>Most penalty terms that induce sparsity are based on the p norm, where <math display='inline'><mn>0</mn><mo>&leq;</mo><mi>p</mi><mo>&leq;</mo><mn>1</mn></math>. An example is the L1 norm shown below.</p>
-    <div id='l1-graph' class='figure'></div>
-    <div class='caption'>The L1 cost will likely intersect the objective cost at an axis, forcing either <math display='inline'><msub><mi>w</mi><mn>0</mn></math> or <math display='inline'><msub><mi>w</mi><mn>1</mn></math> to be exactly zero.</div>
-    <p>The equations for the L1 and Lp norms:</p>
+    <div class='figure'>
+        <div id='l1-graph' style='display: inline-block;'></div>
+        <div id='l2-graph' style='display: inline-block;'></div>
+        <div id='entropy-contour' style='display: inline-block;'></div>
+    </div>
+    <div class='caption'>The L1 cost (black) will likely intersect the <span style='color: red;'>objective cost (red)</span> at an axis, forcing either <math display='inline'><msub><mi>w</mi><mn>0</mn></math> or <math display='inline'><msub><mi>w</mi><mn>1</mn></math> to be exactly zero. The entropy surface is much more concave than L1.</div>
+    <p>The equations for the L1 and Lp norms are:</p>
     <math display='block'>
         <mrow>
             <msub>L<mi>1</mi></msub>
@@ -21,7 +25,7 @@
             </munderover>
             |<msub><mi>w</mi><mi>i</mi></msub>|
         </mrow>
-    <math><br>
+    </math><br>
     <math display='block'>
         <mrow>
             <msub>L<mi>p</mi></msub>
@@ -44,10 +48,9 @@
             <mfrac><mn>1</mn><mi>p</mi>
             </msup>
         </mrow>
-    <math>
+    </math>
     <p>All <math dipslay='inline'><mi>p</mi></math> norms, <math display='inline'><mn>0</mn><mo>&leq;</mo><mi>p</mi><mo>&leq;</mo><mn>1</mn></math>, induce sparsity by intersecting the equal-cost surface of the objective at an axis in high dimensional weight space. This is due to the non-convex ("pointy") nature of the norm. Compare with the L2 norm, which does not encourage sparsity because of its convex surface.</p>
-    <div id='l2-graph' class='figure'></div>
-    <p>An alternative to <math dipslay='inline'><mi>p</mi></math> norm-induced sparsity is entropy regularization. The equation for entropy is:</p>
+    <p>An alternative to <math dipslay='inline'><mi>p</mi></math> norm-induced sparsity is entropy regularization. The equation for <a href='https://en.wikipedia.org/wiki/Entropy_(information_theory)'>entropy</a> is:</p>
     <math display='block'>
         <mrow>
             H
@@ -64,61 +67,12 @@
             <mi>p</mi>(<msub><mi>x</mi><mi>i</mi></msub>)
         </mrow>
     </math>
-    <p>If we replace <math display='inline'><mi>p</mi>(<msub><mi>x</mi><mi>i</mi></msub>)</math> by <math display='inline'><msub><mi>w</mi><mi>i</mi></msub></math> and constrain <math display='inline'><mn>0</mn><mo>&leq;</mo><msub><mi>w</mi><mi>i</mi></msub><mo>&leq;</mo><mn>1</mn></math>, we get the following cost plot:</p>
+    <p>If we replace <math display='inline'><mi>p</mi>(<msub><mi>x</mi><mi>i</mi></msub>)</math> by <math display='inline'><msub><mi>w</mi><mi>i</mi></msub></math> and constrain <math display='inline'><mn>0</mn><mo>&leq;</mo><msub><mi>w</mi><mi>i</mi></msub><mo>&leq;</mo><mn>1</mn></math>, we get the following graph of entropy:</p>
+    <div class='figure'>
+        <div id='entropy-graph' style='display: inline-block;'></div>
+    </div>
     <p>This cost is equal to 0 at the points <math display='inline'><msub><mi>w</mi><mi>i</mi></msub><mo>=</mo><mn>0</mn></math> and <math display='inline'><msub><mi>w</mi><mi>i</mi></msub><mo>=</mo><mn>1</mn></math>, favoring sparsity or full activation. By using a mask or normalization, we can force <math display='inline'><msub><mi>w</mi><mi>i</mi></msub></math> to be in this range.</p>
-    <p>Entropy regularization is used in the GNNExplainer algorithm to sparsify the graph edge matrix.</p>
+    <p>Entropy regularization is used in the <a href='https://github.com/RexYing/gnn-model-explainer'>GNNExplainer algorithm</a> to sparsify the graph edge matrix.</p>
     
-    <script type='module'>
-        import * as d3 from "https://cdn.skypack.dev/d3@7";
-        import * as Plot from "https://cdn.skypack.dev/@observablehq/plot@0.6";
-        var $ = q => document.querySelector(q);
-        function point(x,y) {return {x:x,y:y}};
-        function add(p, q) {
-            return {x: p.x+q.x, y: p.y+q.y};
-        }
-        function rotate(p, theta) {
-            const x = p.x*Math.cos(theta)-p.y*Math.sin(theta);
-            const y = p.x*Math.sin(theta)+p.y*Math.cos(theta);
-            return point(x,y);
-        }
-        function makeEllipse(a,b,theta,x0,y0) {
-            const points = [];
-            const r0 = point(x0,y0);
-            for (let t=0; t<2*Math.PI; t+=0.1) {
-                const x = a*Math.cos(t);
-                const y = b*Math.sin(t);
-                points.push(add(rotate(point(x,y),theta), r0));
-            }
-            return points;
-        }
-        const dataL1 = [
-            point(0,1),point(1,0),point(0,-1),point(-1,0),point(0,1) 
-        ];
-        const dataL2 = makeEllipse(1,1,0,0,0);
-        const dataObj = makeEllipse(1,0.5,-Math.PI/6,0.5,1.5);
-        $('#l1-graph').appendChild(Plot.plot({
-          inset: 10,
-          width: 300,
-          height: 300,
-          x: {label: 'w0', domain: [-2,2]},
-          y: {label: 'w1', domain: [-2,2]},
-          grid: true,
-          marks: [
-            Plot.line(dataL1, {x: 'x', y: 'y', marker: 'none'}),
-            Plot.line(dataObj, {x: 'x', y: 'y', stroke: 'red', curve: 'catmull-rom', marker: 'none'}),
-          ]
-        }));
-        $('#l2-graph').appendChild(Plot.plot({
-          inset: 10,
-          width: 300,
-          height: 300,
-          x: {label: 'w0', domain: [-2,2]},
-          y: {label: 'w1', domain: [-2,2]},
-          grid: true,
-          marks: [
-            Plot.line(dataL2, {x: 'x', y: 'y', marker: 'none'}),
-            Plot.line(dataObj, {x: 'x', y: 'y', stroke: 'red', curve: 'catmull-rom', marker: 'none'}),
-          ]
-        }));
-    </script>
+    <script type='module' src='/js/posts/EntropyReg.js'></script>
 </div>
