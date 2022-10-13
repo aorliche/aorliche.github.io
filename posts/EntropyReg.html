@@ -4,8 +4,7 @@
     <a class='pin' href='#'>Hide</a>
 </h2>
 <div class='body'>
-    <link rel="stylesheet" href="https://fred-wang.github.io/MathFonts/LatinModern/mathfonts.css"/>
-    <p>Most penalty terms that induce sparsity are based on the p norm, where <math display='inline'><mn>0</mn><mo>&leq;</mo><mi>p</mi><mo>&leq;</mo><mn>1</mn></math>. An example is the L1 norm shown below.</p>
+    <p>Most penalty terms that induce sparsity are based on the $p$ norm, where $0\leq p\leq1$. An example is the L1 norm shown below.</p>
     <div class='figure'>
         <div id='l1-graph' style='display: inline-block;'></div>
         <div id='l2-graph' style='display: inline-block;'></div>
@@ -13,65 +12,16 @@
     </div>
     <div class='caption'>The L1 cost (black) will likely intersect the <span style='color: red;'>objective cost (red)</span> at an axis, forcing either <math display='inline'><msub><mi>w</mi><mn>0</mn></math> or <math display='inline'><msub><mi>w</mi><mn>1</mn></math> to be exactly zero. The entropy surface is much more concave than L1.</div>
     <p>The equations for the L1 and Lp norms are:</p>
-    <math display='block'>
-        <mrow>
-            <msub>L<mi>1</mi></msub>
-            <mo>=</mo>
-            <mfrac><mn>1</mn><mi>N</mi></mfrac>
-            <munderover>
-                <mo>∑</mo>
-                <mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow>
-                <mrow></mrow>
-            </munderover>
-            |<msub><mi>w</mi><mi>i</mi></msub>|
-        </mrow>
-    </math><br>
-    <math display='block'>
-        <mrow>
-            <msub>L<mi>p</mi></msub>
-            <mo>=</mo>
-            <mfrac><mn>1</mn><mi>N</mi></mfrac>
-            <msup>
-                <mrow>
-                <mo>(</mo>
-                <munderover>
-                    <mo>∑</mo>
-                    <mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow>
-                    <mrow></mrow>
-                </munderover>
-                <msup>
-                    <mrow>|<msub><mi>w</mi><mi>i</mi></msub>|</mrow>
-                    <mi>p</mi>
-                </msup>
-                <mo>)</mo>
-                </mrow>
-            <mfrac><mn>1</mn><mi>p</mi>
-            </msup>
-        </mrow>
-    </math>
+    \[L_1 = \frac{1}{N}\sum_{i=1}|w_i|\]
+    \[L_p = \frac{1}{N}\sum_{i=1}(|w_i|^p)^{\frac{1}{p}}\] 
     <p>All <math dipslay='inline'><mi>p</mi></math> norms, <math display='inline'><mn>0</mn><mo>&leq;</mo><mi>p</mi><mo>&leq;</mo><mn>1</mn></math>, induce sparsity by intersecting the equal-cost surface of the objective at an axis in high dimensional weight space. This is due to the non-convex ("pointy") nature of the norm. Compare with the L2 norm, which does not encourage sparsity because of its convex surface.</p>
-    <p>An alternative to <math dipslay='inline'><mi>p</mi></math> norm-induced sparsity is entropy regularization. The equation for <a href='https://en.wikipedia.org/wiki/Entropy_(information_theory)'>entropy</a> is:</p>
-    <math display='block'>
-        <mrow>
-            H
-            <mo>=</mo>
-            <mo>-</mo>
-            <mfrac><mn>1</mn><mi>N</mi></mfrac>
-            <munderover>
-                <mo>∑</mo>
-                <mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow>
-                <mrow></mrow>
-            </munderover>
-            <mi>p</mi>(<msub><mi>x</mi><mi>i</mi></msub>)
-            <mi>log</mi>
-            <mi>p</mi>(<msub><mi>x</mi><mi>i</mi></msub>)
-        </mrow>
-    </math>
-    <p>If we replace <math display='inline'><mi>p</mi>(<msub><mi>x</mi><mi>i</mi></msub>)</math> by <math display='inline'><msub><mi>w</mi><mi>i</mi></msub></math> and constrain <math display='inline'><mn>0</mn><mo>&leq;</mo><msub><mi>w</mi><mi>i</mi></msub><mo>&leq;</mo><mn>1</mn></math>, we get the following graph of entropy:</p>
+    <p>An alternative to p norm-induced sparsity is entropy regularization. The equation for <a href='https://en.wikipedia.org/wiki/Entropy_(information_theory)'>entropy</a> is:</p>
+    \[\mathbb{H} = -\frac{1}{N}\sum_{i=1}p(x_i)\text{log}(p(x_i))\]
+    <p>If we replace $p(x)$ by $w_i$ and constrain $0\leq w_i\leq1$, we get the following graph of entropy:</p>
     <div class='figure'>
         <div id='entropy-graph' style='display: inline-block;'></div>
     </div>
-    <p>This cost is equal to 0 at the points <math display='inline'><msub><mi>w</mi><mi>i</mi></msub><mo>=</mo><mn>0</mn></math> and <math display='inline'><msub><mi>w</mi><mi>i</mi></msub><mo>=</mo><mn>1</mn></math>, favoring sparsity or full activation. By using a mask or normalization, we can force <math display='inline'><msub><mi>w</mi><mi>i</mi></msub></math> to be in this range.</p>
+    <p>This cost is equal to 0 at the points $w_i=0$ and $w_i=1$, favoring sparsity or full activation. By using a mask or normalization, we can force $w_i$ to be in this range.</p>
     <p>Entropy regularization is used in the <a href='https://github.com/RexYing/gnn-model-explainer'>GNNExplainer algorithm</a> to sparsify the graph edge matrix.</p>
     
     <script type='module' src='/js/posts/EntropyReg.js'></script>
