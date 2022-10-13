@@ -13,7 +13,7 @@
     <div class='caption'>The L1 cost (black) will likely intersect the <span style='color: red;'>objective cost (red)</span> at an axis, forcing either <math display='inline'><msub><mi>w</mi><mn>0</mn></math> or <math display='inline'><msub><mi>w</mi><mn>1</mn></math> to be exactly zero. The entropy surface is much more concave than L1.</div>
     <p>The equations for the L1 and Lp norms are:</p>
     \[L_1 = \frac{1}{N}\sum_{i=1}|w_i|\]
-    \[L_p = \frac{1}{N}\sum_{i=1}(|w_i|^p)^{\frac{1}{p}}\] 
+    \[L_p = \frac{1}{N}(\sum_{i=1}|w_i|^p)^{\frac{1}{p}}\] 
     <p>All <math dipslay='inline'><mi>p</mi></math> norms, <math display='inline'><mn>0</mn><mo>&leq;</mo><mi>p</mi><mo>&leq;</mo><mn>1</mn></math>, induce sparsity by intersecting the equal-cost surface of the objective at an axis in high dimensional weight space. This is due to the non-convex ("pointy") nature of the norm. Compare with the L2 norm, which does not encourage sparsity because of its convex surface.</p>
     <p>An alternative to p norm-induced sparsity is entropy regularization. The equation for <a href='https://en.wikipedia.org/wiki/Entropy_(information_theory)'>entropy</a> is:</p>
     \[\mathbb{H} = -\frac{1}{N}\sum_{i=1}p(x_i)\text{log}(p(x_i))\]
