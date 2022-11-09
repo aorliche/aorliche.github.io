@@ -6,18 +6,41 @@
 }
 .thumb:hover {
     cursor: pointer;
-    border: 1px solid red;
+    background-color: var(--pig);
 }
 .thumb > img {
     height: 150px;
 }
+.selected {
+    background-color: var(--pig);
+}
 .gallery {
     width: 100%;
-    overflow-x: scroll;
+    overflow-x: hidden;
     display: flex;
 }
 .hidden {
     display: none;
+}
+.scroll img {
+    height: 60px;
+    vertical-align: top;
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid var(--pig);
+    border-radius: 5px;
+    background-color: var(--pig);
+}
+.scroll img:hover {
+    background-color: #fff;
+}
+#gallery-wrap {
+    display: inline-block;
+    max-width: 85%;
+    padding: 6px;
+}
+#gallery-all-wrap {
+    text-align: center;
 }
 #title {
     text-align: center;
