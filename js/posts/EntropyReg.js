@@ -1,5 +1,7 @@
-import * as d3 from "https://cdn.skypack.dev/d3@7";
-import * as Plot from "https://cdn.skypack.dev/@observablehq/plot@0.6";
+//import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7.7.0/dist/d3.min.js";
+//import * as Plot from "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6.1/dist/plot.umd.min.js";
+//import * as d3 from "/js/modules/d3.js";
+//import * as Plot from "/js/modules/plot.js";
 
 var $ = q => document.querySelector(q);
 function point(x,y) {return {x:x,y:y}};
