@@ -1,52 +1,55 @@
 var $ = q => document.querySelector(q);
 var $$ = q => [...document.querySelectorAll(q)];
 
-function setImg(thumb) {
-    const img = thumb.querySelector('img');
-    $('#big img').src = img.src;
-    $('#big h2').innerText = img.alt; 
-    $$('.selected').forEach(sel => sel.classList.remove('selected'));
-    thumb.classList.add('selected');
-}
-
 window.addEventListener('load', e => {
-    [...$$('.thumb')].forEach(thumb => {
-        thumb.addEventListener('click', elt => {
-            setImg(thumb);
-        });
-    });
-    setImg($('.thumb'));
-    
-    let storedHash = '#' + $$('.gallery').filter(g => !g.classList.contains('hidden'))[0].id;
-    window.addEventListener('hashchange', e => {
-        e.preventDefault();
-        if (location.hash != storedHash) {
-            const newHash = location.hash.split('-')[0];
-            $(`${newHash}`).classList.remove('hidden');
-            $(`${storedHash}`).classList.add('hidden');
-            $('#big img').src = '';
-            $('#big h2').innerText = '';
-            storedHash = newHash;
+    function expand(evt) {
+        const thumb = evt.target;
+        const src = thumb.src.split('/').slice(-2).join('/');
+        const title = $('#big .title');
+        const img = $('#big img');
+        title.innerText = thumb.alt;
+        img.src = `/images/Art/${src}`;
+        img.alt = thumb.alt;
+        big.classList.remove('hidden');
+    }
+    function hide(evt) {
+       $('#big').classList.add('hidden'); 
+    }
+    $('#big').addEventListener('click', hide, false);
+    const galleries = $('#galleries');
+    fetch('/art-manifest.json')
+    .then(resp => resp.json())
+    .then(json => {
+        for (let gname in json) {
+            const nospace = gname.replace(' ', ''); 
+            const h2 = document.createElement('h2');
+            h2.innerText = gname;
+            const gdiv = document.createElement('div');
+            gdiv.classList.add('gallery');
+            const imgInfos = json[gname];
+            console.log(imgInfos);
+            for (let i=0; i<imgInfos.length; i++) {
+                const info = imgInfos[i];
+                const img = document.createElement('img');
+                img.src = `/images/Art/thumbs/${nospace}/${info[0]}`;
+                img.classList.add('thumb');
+                if (info.length > 1) {
+                    img.alt = info[1];
+                } else {
+                    img.alt = info[0]
+                    .replace(/([A-Z])/g, ' $1')
+                    .replace(/\.\w{3,4}$/, '');
+                }
+                gdiv.appendChild(img);
+                img.addEventListener('click', expand, false);
+            }
+            galleries.appendChild(h2);
+            galleries.appendChild(gdiv);
         }
+    })
+    .catch(err => {
+        galleries.innerHTML = "<h2 style='text-align: center; color: red;'>Something went wrong loading images!</h2>";
+        console.log(err);
     });
-    
-    let curScroll = 0;
-    ['left', 'right'].forEach(side => {
-        $(`#scroll-${side}`).addEventListener('mouseover', e => {
-            $(`#scroll-${side} img`).src = `images/scroll-${side}-hl.png`;
-        });
-        $(`#scroll-${side}`).addEventListener('mouseout', e => {
-            $(`#scroll-${side} img`).src = `images/scroll-${side}.png`;
-        });
-        $(`#scroll-${side}`).addEventListener('click', e => {
-            e.preventDefault();
-            const gallery = $('.gallery:not(.hidden)');
-            const sw = gallery.scrollWidth;
-            const cw = gallery.clientWidth;
-            curScroll = side == 'left' ? curScroll-400 : curScroll+400;
-            if (curScroll < 0) curScroll = 0;
-            if (curScroll > sw-cw) curScroll = sw-cw;
-            gallery.scroll({left: curScroll, behavior: 'smooth'});
-        });
-    });
+
 });
