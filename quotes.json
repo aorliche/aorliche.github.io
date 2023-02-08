@@ -18,5 +18,6 @@
     "\"Form is henceforth divorced from matter.\"<br>&nbsp;&nbsp;-Oliver Wendell Holmes",
     "\"The existing scientific concepts cover always only a very limited part of reality,<br>and the other part that has not yet been understood is infinite.\"<br>&nbsp;&nbsp;-Werner Heisenberg",
     "\"When a measure becomes a target, it ceases to be a good measure.\"<br>&nbsp;&nbsp;-Charles Goodhart",
-    "\"Truth is ever to be found in simplicity, and not in the multiplicity and confusion of things.\"<br>&nbsp;&nbsp;-Sir Isaac Newton"
+    "\"Truth is ever to be found in simplicity, and not in the multiplicity and confusion of things.\"<br>&nbsp;&nbsp;-Sir Isaac Newton",
+    "The language model has no relationship to the truth.<br>It is neither on the side of true nor on the side of false;<br>it is on the side of predicting the most likely next word given the previous words and the training data,<br>and will pick out or make up things to suit that purpose.\"<br>&nbsp;&nbsp;-Colin Fraser, Meta, Medium"
 ]
