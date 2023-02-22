@@ -1,0 +1,62 @@
+<h2>
+    <span class='date'>Web Feb 22 2023</span>
+    <a class='title' href='#DurakAIPart1'>Durak AI Using Go: Part 1</a>
+    <a class='pin' href='#'>Hide</a>
+</h2>
+<div class='body'>
+    <p>After months of work in C++, and days of work after switching to Golang, I was able to learn a <span style='color: red'>"Card 1 beats Card 2" function</span> using the <a href='https://en.wikipedia.org/wiki/Durak'>Durak</a> AI.</p>
+    <p>Even worse than the months wasted on C++ was the fact that the AI was smarter than me! I originally I calculated that it would take a 4-term boolean expression to evaluate "beats" while the AI showed that 3 terms is sufficient. This is good because 3 term search is instantaneous, while searching 4 terms takes several seconds.</p>
+    <p>This is the function that the AI learned:</p>
+    <pre>
+A main.greaterRank (string,string) [1 2] false
+  main.getProp (*object,string) [1] Jack
+    [1] Jack of Hearts BIND 1
+    [] rank
+  main.getProp (*object,string) [2] Jack
+    [2] Jack of Spades BIND 2
+    [] rank
+---
+B main.equal (string,string) [0 1] false
+  main.getProp (*object,string) [0] Queen
+    main.getProp (*object,string) [0] Queen of Diamonds
+      [0] game BIND 0
+      [] trump
+    [] rank
+  main.getProp (*object,string) [1] Jack
+    [1] Jack of Hearts BIND 1
+    [] rank
+---
+C main.equal (string,string) [2 1] false
+  main.getProp (*object,string) [2] Spades
+    [2] Jack of Spades BIND 2
+    [] suit
+  main.getProp (*object,string) [1] Hearts
+    [1] Jack of Hearts BIND 1
+    [] suit
+---
+A+(B~C)
+    </pre>
+    <p style='font-weight: bold; color: red;'>In human terms, it learned that Card 1 beats Card 2 if 1 is of greater rank than 2, or 1's suit is trump and 2's suit is not equal to 1's.</p>
+    <p>And these were the training examples required to get it to learn this function:</p>
+    <pre>
+c := makeCard("8", "Spades")
+d := makeCard("10", "Hearts")
+dd := makeCard("Queen", "Diamonds")
+e := makeCard("Jack", "Hearts")
+f := makeCard("Jack", "Spades")
+g := makeGame(d) // argument to makeGame is trump card
+h := makeGame(c)
+hh := makeGame(dd)
+p := makePred("beats", []string{"game", "card", "card"}, []*fn{&amp;expandListFn, &amp;expandPropsFn, &amp;equalStrFn, &amp;greaterRankFn})
+ex1 := makeExample(false, []interface{}{g,c,d})
+ex2 := makeExample(true, []interface{}{g,d,c})
+ex3 := makeExample(false, []interface{}{g,d,e})
+ex4 := makeExample(true, []interface{}{g,d,f})
+ex5 := makeExample(false, []interface{}{h,d,e})
+ex6 := makeExample(true, []interface{}{h,e,d})
+ex7 := makeExample(false, []interface{}{hh,e,f})
+exs := []*example{ex1, ex2, ex3, ex4, ex5, ex6, ex7}
+    </pre>
+    <p>You'll notice that I had to quickly add an example 7 to get off of an almost equivalent but wrong function. My strategy is to compose such learned functions into a larger system.</p>
+    <p>Code is available on <a href='https://github.com/aorliche/Durak'>GitHub</a>.</p>
+</div>
