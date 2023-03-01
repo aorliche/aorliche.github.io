@@ -1,5 +1,5 @@
 <h2>
-    <span class='date'>Web Feb 22 2023</span>
+    <span class='date'>Wed Feb 22 2023</span>
     <a class='title' href='#DurakAIPart1'>Durak AI Using Go: Part 1</a>
     <a class='pin' href='#'>Hide</a>
 </h2>
@@ -25,12 +25,12 @@ B main.equal (string,string) [2 1] false
     [1] Jack of Spades BIND 1
     [] suit
 ---
-C main.greaterRank (string,string) [2 1] false
-  main.getProp (*object,string) [2] 10
-    [2] 10 of Hearts BIND 2
-    [] rank
+C main.greaterRank (string,string) [1 2] true
   main.getProp (*object,string) [1] Jack
     [1] Jack of Spades BIND 1
+    [] rank
+  main.getProp (*object,string) [2] 10
+    [2] 10 of Hearts BIND 2
     [] rank
 ---
 D main.equal (string,string) [2 1] false
@@ -41,9 +41,9 @@ D main.equal (string,string) [2 1] false
     [1] Jack of Spades BIND 1
     [] suit
 ---
-(A~B)+(~CD)
+(A~B)+(CD)
     </pre>
-    <p style='font-weight: bold; color: red;'>In human terms, it learned that Card 1 beats Card 2 if 1's suit is trump and 2's suit is not equal to 1's, or 2 is not greater rank than 1 and they have the same suit.</p>
+    <p style='font-weight: bold; color: red;'>In human terms, it learned that Card 1 beats Card 2 if 1's suit is trump and 2's suit is not equal to 1's, or 1 has greater rank than 2 and they have the same suit.</p>
     <p>And these were the training examples required to get it to learn this function:</p>
     <pre>
 c0 := makeCard("8", "Spades")
