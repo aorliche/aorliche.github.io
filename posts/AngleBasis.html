@@ -1,0 +1,22 @@
+<h2>
+    <span class='date'>Mon Jun 6 2023</span>
+    <a class='title' href='#AngleBasis'>Angle Basis: Generative Model for Functional Connectivity Preprint</a>
+    <a class='pin' href='#'>Hide</a>
+</h2>
+<div class='body'>
+    <div style='text-align: center'><img src='/images/Blog/AngleBasisOneSubject.png' alt='Angle Basis Decomposition for One Subject' width='800px'></div>
+    <div class='caption'>Angle basis decomposition for one subject using one basis of 264 sine waves and 264 jitter values.</div>
+    <p>Almost everyone working with fMRI has used or is at least aware of functional connectivity (FC). We have developed a <a href='https://arxiv.org/abs/2305.10541'>low-dimensional decomposition and generative model for FC</a> which has some very nice properties:</p>
+    <ol>
+        <li>10x compression</li>
+        <li>similar predictive value for reconstruction and residual</li>
+        <li>97.3% residual identifiability compared to 62.5% for FC</li>
+        <li>modest 5% AUC classification accuracy increase for ensemble</li>
+        <li>data augmentations</li>
+        <li>ability to generate synthetic FC based on patient characteristics, leading to better intuition and interpretability</li>
+        <li>no need to have a population to perform decomposition; a single subject is enough</li>
+    </ol>
+    <p>A copy has also been posted on <a href='https://www.techrxiv.org/articles/preprint/Angle_Basis_a_Generative_Model_and_Decomposition_for_Functional_Connectivity/23028248'>TechRxiv</a>.</p>
+    <div style='text-align: center'><img src='/images/Blog/Fingerprinting.png' alt='Angle Basis Decomposition for One Subject' width='800px'></div>
+    <div class='caption'>Fingerprinting with the angle basis residual clearly identifies the same subject scan pairs, while those pairs are less obvious with FC or Factor Analysis.</div>
+</div>
