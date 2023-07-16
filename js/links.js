@@ -9,7 +9,7 @@ window.addEventListener('load', e => {
     .then(resp => resp.text())
     .then(text => {
         links.innerHTML = text;
-        makeSmartLinks();
+        //makeSmartLinks();
     })
     .catch(err => console.log(err));
 

@@ -1,1 +1,13 @@
-["First", "PolyMatch", "SiteTopics", "EntropyReg", "IEEEXtreme16", "LatSimAccept", "ImageNomerRaceBias", "DurakAIPart1", "ImageNomerPoster", "AngleBasis", "ImageNomerDemo"]
+[
+    {"name": "First", "title": "Website Under Construction", "date": "Tue Jun 28 2022"},
+    {"name": "SiteTopics", "title": "Site Topics", "date": "Sun Jul 03 2022"},
+    {"name": "PolyMatch", "title": "PolyMatch", "date": "Thu Oct 06 2022"},
+    {"name": "EntropyReg", "title": "Entropy Regularization: An Alternative to L1-Induced Sparsity", "date": "Sun Oct 09 2022"},
+    {"name": "IEEEXtreme16", "title": "IEEEXtreme Programming Competition", "date": "Mon Oct 24 2022"},
+    {"name": "LatSimAccept", "title": "Latent Similarity Paper Accepted", "date": "Wed Dec 28 2022"},
+    {"name": "ImageNomerRaceBias", "title": "Using ImageNomer to Identify Racial Bias in Functional Connectivity", "date": "Wed Feb 1 2023"},
+    {"name": "DurakAIPart1", "title": "Durak AI Using Go: Part 1", "date": "Wed Feb 22 2023"},
+    {"name": "ImageNomerPoster", "title": "ImageNomer Poster Presented at TRICS", "date": "Thu Mar 2 2023"},
+    {"name": "AngleBasis", "title": "Angle Basis: Generative Model for Functional Connectivity Preprint", "date": "Mon Jun 6 2023"},
+    {"name": "ImageNomerDemo", "title": "ImageNomer Demo and Tutorial Online", "date": "Sat Jul 1 2023"}
+]

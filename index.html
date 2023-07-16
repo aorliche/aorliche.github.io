@@ -6,6 +6,7 @@
 <title>Anton Orlichenko's Website</title>
 <link rel="icon" type="image/png" href="/images/pig.png">
 <link rel="stylesheet" href="/css/site.css">
+<link rel="stylesheet" href="/css/links.css">
 <link rel='stylesheet' href='/css/posts.css'>
 <!--D3 and ObservableHQ Plot-->
 <script src='/js/modules/d3.js'></script>
@@ -25,17 +26,25 @@ MathJax = {
 <script src='/js/quotes.js'></script>
 </head>
 <body>
-<div id='content'>
-<div style='display: inline-block;'>
-    <h1>Anton Orlichenko</h1>
-    <div id='blurb'>3rd year Biomedical Engineering PhD student at Tulane University</div>
+<div id='heading'>
+    <div style='display: inline-block;'>
+        <h1>Anton Orlichenko</h1>
+        <div id='blurb'>3rd year Biomedical Engineering PhD student at Tulane University</div>
+    </div>
+    <img src='/images/pig.png'>
 </div>
-<img src='/images/pig.png'>
-<img class='photo' src='/images/Anton/Anton_Orlichenko.jpg'>
 <div id='links'></div>
-<div id='quote'></div>
-<div id='posts'></div>
-<div id='footer'></div>
+<div id='content'>
+    <div id='main'>
+        <div id='quote'></div>
+        <div id='posts'></div>
+    </div>
+    <div id='sidebar'>
+        <img width='100' src='/images/Anton/Anton_Orlichenko.jpg'>
+        <h2>All Posts</h2>
+        <div id='post-blurbs'></div>
+    </div>
 </div>
+<div id='footer'></div>
 </body>
 </html>
