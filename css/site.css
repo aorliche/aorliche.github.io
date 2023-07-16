@@ -49,9 +49,15 @@ h1 {
 }
 
 #sidebar {
+    margin-top: 10px;
     width: 25%;
     min-width: 250px;
-    padding-top: 20px;
+    padding: 20px;
+    border: 1px solid var(--pig);
+}
+
+#sidebar > img {
+    border: 1px solid var(--pig);
 }
 
 #main {
@@ -59,43 +65,18 @@ h1 {
     min-width: 750px;
 }
 
-#post-blurbs div span  {
-    font-weight: bold;
-    color: var(--charcoal);
-}
-
-#post-blurbs div {
-    margin-bottom: 10px;
-}
-
-.post h2 {
-    /*border-bottom: 1px solid var(--charcoal);*/
-    padding: 10px;
-}
-
-.post h2 .pin {
-    font-size: 12px;
-    font-weight: normal;
-    margin-left: 5px;
-}
-
-.post img {
-    padding: 5px;
-}
-
-.post .caption {
-    font-size: 12px;
-}
-
-.post .date {
-    font-size: 16px;
-    margin-right: 10px;
-    font-weight: normal;
-}
-
 #footer {
     font-size: 12px;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.figure {
+    text-align: center;
+}
+
+.caption {
+    font-size: 10px;
+    text-align: center;
 }

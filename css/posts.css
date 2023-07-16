@@ -1,7 +1,33 @@
-.figure {
-    text-align: center;
+#post-blurbs div span  {
+    font-weight: bold;
+    color: var(--charcoal);
 }
-.caption {
-    font-size: 10px;
-    text-align: center;
+
+#post-blurbs div {
+    margin-bottom: 10px;
+}
+
+.post h2 {
+    /*border-bottom: 1px solid var(--charcoal);*/
+    padding: 10px;
+}
+
+.post h2 .pin {
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.post img {
+    padding: 5px;
+}
+
+.post .caption {
+    font-size: 12px;
+}
+
+.post .date {
+    font-size: 16px;
+    margin-right: 10px;
+    font-weight: normal;
 }

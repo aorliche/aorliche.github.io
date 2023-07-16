@@ -33,9 +33,9 @@ window.addEventListener('load', e => {
             $('#posts').appendChild(p[0]);
         });
         // Apply MathJax
-        /*var script = document.createElement('script');
+        var script = document.createElement('script');
         script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js';
-        document.head.appendChild(script);*/
+        document.head.appendChild(script);
     }
 
     function loadPost(url) {
@@ -47,7 +47,7 @@ window.addEventListener('load', e => {
             div.innerHTML = text;
             div.classList.add('post');
             const title = div.querySelector('.title');
-            div.id = title.href.split('#')[1];
+            div.id = title.href.split('?post=')[1];
             // Don't do anything with this yet...
             title.addEventListener('click', e => {
                 e.preventDefault();
@@ -90,13 +90,14 @@ window.addEventListener('load', e => {
     .then(list => {
         names = list.map(obj => obj.name);
         nposts = list.length;
+
         // Add posts blurbs
         list.slice().reverse().forEach(obj => {
             const div = document.createElement('div');
             const span = document.createElement('span');
             const br = document.createElement('br');
             const a = document.createElement('a');
-            a.href = `/#${obj.name}`;
+            a.href = `/?post=${obj.name}`;
             a.innerText = obj.title;
             span.innerText = obj.date;
             div.appendChild(span);
@@ -107,6 +108,17 @@ window.addEventListener('load', e => {
         if (nposts > 3) {
             nposts = 3;
         }
+
+        // See if we want a specific post
+        const urlParams = new URLSearchParams(window.location.search);
+        const name = urlParams.get('post');
+
+        if (names.includes(name)) {
+            nposts = 1;
+            loadPost(`/posts/${name}.html`);
+            return;
+        }
+
         // Load new posts
         list.slice(-nposts).forEach(obj => {
             loadPost(`/posts/${obj.name}.html`);
@@ -115,21 +127,4 @@ window.addEventListener('load', e => {
     .catch(err => {
         console.log(err);
     });
-
-    // Respond to hashchange
-    window.addEventListener('hashchange', e1 => {
-        // Check that hash in set of names
-        const name = e1.newURL.split('#')[1];
-        console.log(name);
-        console.log(names);
-        if (names.includes(name)) {
-            console.log('yes');
-            // Load post
-            posts = [];
-            $('#posts').innerHTML = '';
-            nrecvd = 0;
-            nposts = 1;
-            loadPost(`/posts/${name}.html`);
-        }
-    })
 });
