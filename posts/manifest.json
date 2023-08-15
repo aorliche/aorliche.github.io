@@ -11,5 +11,6 @@
     {"name": "AngleBasis", "title": "Angle Basis: Generative Model for Functional Connectivity Preprint", "date": "Mon Jun 6 2023"},
     {"name": "ImageNomerDemo", "title": "ImageNomer Demo and Tutorial Online", "date": "Sat Jul 1 2023"},
     {"name": "OHBM2023", "title": "Wang Lab at OHBM 2023", "date": "Fri Jul 21 2023"},
-    {"name": "fc-identifiability-exploit", "title": "Identifiability in Functional Connectivity May Unintentionally Inflate Prediction Results", "date": "Mon Aug 7 2023"} 
+    {"name": "fc-identifiability-exploit", "title": "Identifiability in Functional Connectivity May Unintentionally Inflate Prediction Results", "date": "Mon Aug 7 2023"},
+    {"name": "makerspace-tulane", "title": "Makerspace at Tulane", "date": "Tue Aug 15 2023"}
 ]
