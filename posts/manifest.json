@@ -13,5 +13,6 @@
     {"name": "OHBM2023", "title": "Wang Lab at OHBM 2023", "date": "Fri Jul 21 2023"},
     {"name": "fc-identifiability-exploit", "title": "Identifiability in Functional Connectivity May Unintentionally Inflate Prediction Results", "date": "Mon Aug 7 2023"},
     {"name": "makerspace-tulane", "title": "Makerspace at Tulane", "date": "Tue Aug 15 2023"},
-    {"name": "ukb-longitudinal-smt-vis", "title": "Somatomotor-Visual Resting State Functional Connectivity Increases After Two Years in the UK Biobank Longitudinal Cohort", "date": "Wed Aug 16 2023"}
+    {"name": "ukb-longitudinal-smt-vis", "title": "Somatomotor-Visual Resting State Functional Connectivity Increases After Two Years in the UK Biobank Longitudinal Cohort", "date": "Wed Aug 16 2023"},
+    {"name": "durak", "title": "Multiplayer/Computer Durak Card Game", "date": "Mon Sep 4 2023"}
 ]
