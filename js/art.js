@@ -17,6 +17,7 @@ window.addEventListener('load', e => {
     }
     $('#big').addEventListener('click', hide, false);
     const galleries = $('#galleries');
+    const artLinks = $('#art-links');
     fetch('/art-manifest.json')
     .then(resp => resp.json())
     .then(json => {
@@ -24,6 +25,7 @@ window.addEventListener('load', e => {
             const nospace = gname.replace(' ', ''); 
             const h2 = document.createElement('h2');
             h2.innerText = gname;
+            h2.id = gname;
             const gdiv = document.createElement('div');
             gdiv.classList.add('gallery');
             const imgInfos = json[gname];
@@ -45,7 +47,16 @@ window.addEventListener('load', e => {
             }
             galleries.appendChild(h2);
             galleries.appendChild(gdiv);
+            const link = document.createElement('a');
+            const span = document.createElement('span');
+            link.innerText = gname;
+            link.href = '#' + gname;
+            artLinks.appendChild(link);
+            span.innerText = ' | ';
+            artLinks.appendChild(span);
         }
+        // Remove last separator
+        artLinks.removeChild(artLinks.lastChild);
     })
     .catch(err => {
         galleries.innerHTML = "<h2 style='text-align: center; color: red;'>Something went wrong loading images!</h2>";

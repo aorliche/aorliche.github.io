@@ -7,6 +7,12 @@
     display: flex;
     flex-wrap: wrap;
 }
+#galleries h2 {
+    background-color: var(--pig-light);
+    padding: 8px;
+    font-weight: normal;
+    font-size: 16px;
+}
 .thumb {
     height: 100px;
     padding: 5px;
@@ -31,4 +37,8 @@
 }
 .hidden {
     display: none;
+}
+#art-links {
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
