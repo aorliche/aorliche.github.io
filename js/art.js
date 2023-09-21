@@ -29,7 +29,6 @@ window.addEventListener('load', e => {
             const gdiv = document.createElement('div');
             gdiv.classList.add('gallery');
             const imgInfos = json[gname];
-            console.log(imgInfos);
             for (let i=0; i<imgInfos.length; i++) {
                 const info = imgInfos[i];
                 const img = document.createElement('img');
@@ -46,6 +45,7 @@ window.addEventListener('load', e => {
                 img.addEventListener('click', expand, false);
             }
             galleries.appendChild(h2);
+            galleries.appendChild(document.createElement('hr'));
             galleries.appendChild(gdiv);
             const link = document.createElement('a');
             const span = document.createElement('span');

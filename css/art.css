@@ -8,10 +8,11 @@
     flex-wrap: wrap;
 }
 #galleries h2 {
-    background-color: var(--pig-light);
-    padding: 8px;
-    font-weight: normal;
-    font-size: 16px;
+    font-size: 18px;
+}
+#galleries hr {
+    margin-left: 2px;
+    margin-right: 10px;
 }
 .thumb {
     height: 100px;
