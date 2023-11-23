@@ -85,7 +85,8 @@
         ["FlightCrew.png"],
         ["FlyBeater.jpg"],
         ["KickedOut.png"],
-        ["MantisShrimpFight.png", "Don't Bring a Mantis to a Shrimp Fight"]
+        ["MantisShrimpFight.png", "Don't Bring a Mantis to a Shrimp Fight"],
+        ["RoachLang.png", "The Roach Programming Language"]
     ],
     "Physical": [
         ["ValentinaMedal.jpg"],
