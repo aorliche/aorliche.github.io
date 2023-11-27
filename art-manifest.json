@@ -87,7 +87,8 @@
         ["KickedOut.png"],
         ["MantisShrimpFight.png", "Don't Bring a Mantis to a Shrimp Fight"],
         ["RoachLang.png", "The Roach Programming Language"],
-        ["RoachNoire.png", "Roach Noire: Roach Detective Takes a Case"]
+        ["RoachNoire.png", "Roach Noire: Roach Detective Takes a Case"],
+        ["FerrisKraken.png", "Ferris the Kraken Capsizes a Roach Ship"]
     ],
     "Physical": [
         ["ValentinaMedal.jpg"],
