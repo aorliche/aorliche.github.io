@@ -89,7 +89,10 @@
         ["RoachLang.png", "The Roach Programming Language"],
         ["RoachNoire.png", "Roach Noire: Roach Detective Takes a Case"],
         ["FerrisKraken.png", "Ferris the Kraken Capsizes a Roach Ship"],
-        ["CrocHeretic.png", "Feel the Crocodile's Wrath, Heretic"]
+        ["CrocHeretic.png", "Feel the Crocodile's Wrath, Heretic"],
+        ["bugs_shrimp.jpg"],
+        ["bugs_ladybug.jpg"],
+        ["bugs_spider.jpg"]
     ],
     "Physical": [
         ["ValentinaMedal.jpg"],
