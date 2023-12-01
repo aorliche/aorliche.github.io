@@ -88,7 +88,8 @@
         ["MantisShrimpFight.png", "Don't Bring a Mantis to a Shrimp Fight"],
         ["RoachLang.png", "The Roach Programming Language"],
         ["RoachNoire.png", "Roach Noire: Roach Detective Takes a Case"],
-        ["FerrisKraken.png", "Ferris the Kraken Capsizes a Roach Ship"]
+        ["FerrisKraken.png", "Ferris the Kraken Capsizes a Roach Ship"],
+        ["CrocHeretic.png", "Feel the Crocodile's Wrath, Heretic"]
     ],
     "Physical": [
         ["ValentinaMedal.jpg"],
