@@ -17,5 +17,6 @@
     {"name": "durak", "title": "Multiplayer/Computer Durak Card Game", "date": "Mon Sep 4 2023"},
     {"name": "ieeextreme17", "title": "IEEEXtreme Programming Competition 2023", "date": "Sat Oct 28 2023"},
     {"name": "image-nomer-published-updating", "title": "ImageNomer and Race Confound Paper Published", "date": "Tue Nov 7 2023"},
-    {"name": "neurips2023", "title": "Low Rank Mixup of FC for Contrastive Learning poster at Medical Imaging Meets NeurIPS 2023 Workshop", "date": "Tue Dec 5 2023"}
+    {"name": "neurips2023", "title": "Low Rank Mixup of FC for Contrastive Learning poster at Medical Imaging Meets NeurIPS 2023 Workshop", "date": "Tue Dec 5 2023"},
+    {"name": "generative-fc", "title": "Generative FC", "date": "Wed Dec 13 2023"}
 ]
