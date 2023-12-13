@@ -30,7 +30,8 @@
         ["StatelyPig.png"],
         ["FatbackEffect.png", "The Fatback Effect"],
         ["LinusTrufflevolds.png", "Linus Trufflevolds, Creator of the Linux Kernel"],
-        ["RichardBoarman.png", "Richard Boarman, GNU Champion"]
+        ["RichardBoarman.png", "Richard Boarman, GNU Champion"],
+        ["AndrewTuberman.png"]
     ],
     "DragoVerse": [
         ["PigClass5.png"],
