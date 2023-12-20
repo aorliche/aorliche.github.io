@@ -103,6 +103,10 @@
         ["ComputerBugs.png"],
         ["Waterboarding.png", "Waterboarding (We Aren't Getting Anything Out of this Guy)"]
     ],
+    "Anime": [
+        ["ModernUndeadCloseup.png"],
+        ["FrozenWithBugs.png", "A Frozen Bug"]
+    ],
     "Physical": [
         ["ValentinaMedal.jpg"],
         ["RosePigMakerspace.jpg", "3D Printed Rose and Luggage Tag @TulaneMakerspace"],
