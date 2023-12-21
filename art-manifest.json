@@ -106,7 +106,8 @@
     ],
     "Anime": [
         ["ModernUndeadCloseup.png"],
-        ["FrozenWithBugs.png", "A Frozen Bug"]
+        ["FrozenWithBugs.png", "A Frozen Bug"],
+        ["ModernUndeadLarry.png"]
     ],
     "Physical": [
         ["ValentinaMedal.jpg"],
