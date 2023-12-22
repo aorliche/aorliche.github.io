@@ -15,12 +15,13 @@
     margin-right: 10px;
 }
 .thumb {
+    margin: 5px;
     height: 100px;
-    padding: 5px;
+    border: 1px solid black;
 }
 .thumb:hover {
     cursor: pointer;
-    background-color: var(--pig);
+    border: 1px dashed var(--pig);
 }
 #big {
     top: -10px;
