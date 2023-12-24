@@ -108,7 +108,8 @@
         ["ModernUndeadCloseup.png"],
         ["FrozenWithBugs.png", "A Frozen Bug"],
         ["ModernUndeadLarry.png"],
-        ["LarryChained3.png", "Larry Chained"]
+        ["LarryChained3.png", "Larry Chained"],
+        ["TrapCard.png"]
     ],
     "Physical": [
         ["ValentinaMedal.jpg"],
