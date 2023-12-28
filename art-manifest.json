@@ -103,8 +103,7 @@
         ["ComputerBugs.png"],
         ["Waterboarding.png", "Waterboarding (We Aren't Getting Anything Out of this Guy)"],
         ["BeachParty.png", "DHS at the Beach"],
-        ["DavidTheCrocodile2.png"],
-        ["ModernUndeadSurfing.png"]
+        ["DavidTheCrocodile2.png"]
     ],
     "Anime": [
         ["ModernUndeadCloseup.png"],
@@ -112,7 +111,8 @@
         ["ModernUndeadLarry.png"],
         ["LarryChained3.png", "Larry Chained"],
         ["TrapCard.png"],
-        ["GoRustSquad.png"]
+        ["GoRustSquad.png"],
+        ["ModernUndeadSurfing2.png"]
     ],
     "Physical": [
         ["ValentinaMedal.jpg"],
