@@ -67,7 +67,6 @@
         ["Valentina1.png"],
         ["ModernUndead.jpg"],
         ["MrDogAndTheCat.jpg"],
-        ["RatThrone.png", "Biomedical Engineering"],
         ["CyberSleeze.png", "Holographic Watches"],
         ["EnlightenmentAnimals.jpg"],
         ["LidiyaCrocodile.png", "Lidiya the Crocodile"],
@@ -80,17 +79,9 @@
         ["MusyaMagician.jpg", "Musya the Magician"],
         ["WarRoom.jpg"],
         ["NotebookSatyrs.jpg"],
-        ["Jail.png", "Bug Vacation"],
         ["Pig.png", "Saucy Cuthbert"],
         ["SowTrial.png"],
         ["FlightCrew.png"],
-        ["FlyBeater.jpg"],
-        ["KickedOut.png"],
-        ["MantisShrimpFight.png", "Don't Bring a Mantis to a Shrimp Fight"],
-        ["CrocHeretic.png", "Feel the Crocodile's Wrath, Heretic"],
-        ["bugs_shrimp.jpg"],
-        ["bugs_ladybug.jpg"],
-        ["bugs_spider.jpg"],
         ["BattlepigGalactaoink.png"],
         ["Waterboarding.png", "Waterboarding (We Aren't Getting Anything Out of this Guy)"],
         ["BeachParty.png", "DHS at the Beach"],
@@ -120,6 +111,19 @@
         ["ModernUndeadSurfing2.png"],
         ["CrocCommando.png"],
         ["AnimalRivalry.png"]
+    ],
+    "Warhammer 40k": [
+        ["RatThrone.png", "Biomedical Engineering"],
+        ["CrocHeretic.png", "Feel the Crocodile's Wrath, Heretic"]
+    ],
+    "Insects": [
+        ["Jail.png", "Bug Vacation"],
+        ["FlyBeater.jpg"],
+        ["KickedOut.png"],
+        ["MantisShrimpFight.png", "Don't Bring a Mantis to a Shrimp Fight"],
+        ["bugs_shrimp.jpg"],
+        ["bugs_ladybug.jpg"],
+        ["bugs_spider.jpg"]
     ],
     "Physical": [
         ["ValentinaMedal.jpg"],
