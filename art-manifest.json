@@ -103,7 +103,6 @@
     ],
     "Anime": [
         ["ModernUndeadCloseup.png"],
-        ["FrozenWithBugs.png", "A Frozen Bug"],
         ["ModernUndeadLarry.png"],
         ["LarryChained3.png", "Larry Chained"],
         ["TrapCard.png"],
@@ -123,7 +122,9 @@
         ["MantisShrimpFight.png", "Don't Bring a Mantis to a Shrimp Fight"],
         ["bugs_shrimp.jpg"],
         ["bugs_ladybug.jpg"],
-        ["bugs_spider.jpg"]
+        ["bugs_spider.jpg"],
+        ["FrozenWithBugs.png", "A Frozen Bug"],
+        ["Centipede.png", "Chaos Centipede"]
     ],
     "Physical": [
         ["ValentinaMedal.jpg"],
