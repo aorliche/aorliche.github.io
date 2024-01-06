@@ -4,7 +4,7 @@ window.addEventListener('load', e => {
     const a = document.createElement('a');
     a.innerText = 'Contact me';
     a.href = 'https://hunimal.org/Contact.php';
-    p.innerHTML = "&#169; 2023 Anton Orlichenko<br>";
+    p.innerHTML = "&#169; 2023-24 Anton Orlichenko<br>";
     p.appendChild(a);
     footer.appendChild(p);
 });
