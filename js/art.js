@@ -22,7 +22,7 @@ window.addEventListener('load', e => {
     .then(resp => resp.json())
     .then(json => {
         for (let gname in json) {
-            const nospace = gname.replace(' ', ''); 
+            const nospace = gname.replace(/ /g, ''); 
             const h2 = document.createElement('h2');
             h2.innerText = gname;
             h2.id = gname;
