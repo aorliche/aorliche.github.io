@@ -121,7 +121,8 @@
         ["GoRustSquad.png"],
         ["ModernUndeadSurfing2.png"],
         ["CrocCommando.png"],
-        ["AnimalRivalry.png"]
+        ["AnimalRivalry.png"],
+        ["Archersan.png", "Archer-san"]
     ],
     "Warhammer 40k": [
         ["RatThrone.png", "Biomedical Engineering"],
