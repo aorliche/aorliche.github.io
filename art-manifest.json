@@ -143,7 +143,8 @@
         ["VampireDuckWorld.png"]
     ],
     "Dungeons And Dragons": [
-        ["Snort.png", "Dwarven Cavalry"]
+        ["Snort.png", "Dwarven Cavalry"],
+        ["DwarfUp2.png", "Dwarf up!"]
     ],
     "Physical": [
         ["ValentinaMedal.jpg"],
