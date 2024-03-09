@@ -99,7 +99,8 @@
         ["VolgaVacation.png"],
         ["LionRichard2.png", "Richard the Lion"],
         ["Rumors.png"],
-        ["BeansChest.png", "50 Beans on a Dead Bean's Chest (Yo Ho Ho)"]
+        ["BeansChest.png", "50 Beans on a Dead Bean's Chest (Yo Ho Ho)"],
+        ["PigRunning.jpg", "What's the Pig Running From?"]
     ],
     "Programming": [
         ["Shaving.png", "Shaving with Programming"],
@@ -159,7 +160,8 @@
         ["LidiyaAndPig.jpg", "A Lidiya the Crocodile Appears"],
         ["Grandma.jpg", "A Grandma Owl Appears"],
         ["WholeGang.jpg", "The Whole Gang"],
-        ["AuntLida.jpg", "An Aunt Lida Appears"]
+        ["AuntLida.jpg", "An Aunt Lida Appears"],
+        ["DavidTheCrocodile.jpg"]
     ],
     "Animation": [
         ["ManLionBad.gif", "Man and Lion"],
