@@ -139,14 +139,12 @@
     ],
     "Insects": [
         ["Jail.png", "Bug Vacation"],
+        ["FrozenWithBugs.png", "A Frozen Bug"],
         ["FlyBeater.jpg"],
         ["KickedOut.png"],
-        ["MantisShrimpFight.png", "Don't Bring a Mantis to a Shrimp Fight"],
         ["bugs_shrimp.jpg"],
         ["bugs_ladybug.jpg"],
         ["bugs_spider.jpg"],
-        ["FrozenWithBugs.png", "A Frozen Bug"],
-        ["Centipede.png", "Chaos Centipede"],
         ["BugsForDinner2.png"],
         ["VampireDuckWorld.png"],
         ["AntBeetle.jpg", "Bug Knight"]
