@@ -135,7 +135,8 @@
     "Warhammer 40k": [
         ["RatThrone.png", "Biomedical Engineering"],
         ["CrocHeretic.png", "Feel the Crocodile's Wrath, Heretic"],
-        ["CrocodileMechanicus.png", "The Crocodile Knows All, Comprehends All"]
+        ["CrocodileMechanicus.png", "The Crocodile Knows All, Comprehends All"],
+        ["AdeptusAves.png", "Adeptus Aves, Grandma's Servitor"]
     ],
     "Insects": [
         ["Jail.png", "Bug Vacation"],
