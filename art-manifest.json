@@ -105,7 +105,8 @@
         ["MomHug.png", "Mom and Grandma"],
         ["Pantera2.png"],
         ["CrocodileBallerina.png"],
-        ["ANewOink.png", "Mom Jedi vs Mom Sith"]
+        ["ANewOink.png", "Mom Jedi vs Mom Sith"],
+        ["Pigxercise.jpg", "Pig Exercise"]
     ],
     "Programming": [
         ["Shaving.png", "Shaving with Programming"],
@@ -153,7 +154,6 @@
         ["ChernobylBugs.png"],
         ["GrasshopperViolin.png", "Locust Violin"],
         ["BullyBeatle.png"],
-        ["Pigxercise.jpg", "Pig Exercise"],
         ["HydraGame.png"]
     ],
     "Dungeons And Dragons": [
@@ -161,7 +161,7 @@
         ["DwarfUp2.png", "Dwarf up!"],
         ["NavySealRangerClass.png"]
     ],
-    "Physical": [
+    "Sculpture": [
         ["ValentinaMedal.jpg"],
         ["RosePigMakerspace.jpg", "3D Printed Rose and Luggage Tag @TulaneMakerspace"],
         ["PigHead.jpg"],
