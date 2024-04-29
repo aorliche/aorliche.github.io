@@ -1,0 +1,22 @@
+#content {
+	flex-wrap: wrap;
+}
+.album {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid white;
+	max-width: 250px;
+}
+.album img {
+	max-height: 160px;
+}
+.album p {
+	text-align: center;
+}
+.album h2 {
+	text-align: center;
+}
+.album:hover {
+	border: 1px solid var(--pig);
+}
