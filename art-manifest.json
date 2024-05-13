@@ -113,7 +113,8 @@
 		["OstrichRide3.png", "Where's My Ostrich!?"],
 		["PorkPiper.png"],
 		["BobRoss.png", "Bob \"The Ham\" Ross"],
-		["HappyLandscape1.png", "Bob Ross Paints a Happy Landscape"]
+		["HappyLandscape.png", "Bob Ross Paints a Happy Landscape"],
+		["FullSteamAhead1.png"]
     ],
     "Programming": [
         ["Shaving.png", "Shaving with Programming"],
