@@ -172,7 +172,8 @@
     "Dungeons And Dragons": [
         ["Snort.png", "Dwarven Cavalry"],
         ["DwarfUp2.png", "Dwarf up!"],
-        ["NavySealRangerClass.png"]
+        ["NavySealRangerClass.png"],
+		["GauntletStart.png", "Hero Gopher Enters the Gauntlet"]
     ],
     "Sculpture": [
         ["ValentinaMedal.jpg"],
