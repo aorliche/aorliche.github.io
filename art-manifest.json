@@ -141,7 +141,8 @@
         ["ModernUndeadSurfing2.png"],
         ["CrocCommando.png"],
         ["AnimalRivalry.png"],
-        ["Archersan.png", "Archer-san"]
+        ["Archersan.png", "Archer-san"],
+		["AnimeBench.png", "Talking About Arch Linux on the Bench"]
     ],
     "Warhammer 40k": [
         ["RatThrone.png", "Biomedical Engineering"],
