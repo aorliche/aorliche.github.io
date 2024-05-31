@@ -150,7 +150,8 @@
         ["RatThrone.png", "Biomedical Engineering"],
         ["CrocHeretic.png", "Feel the Crocodile's Wrath, Heretic"],
         ["CrocodileMechanicus.png", "The Crocodile Knows All, Comprehends All"],
-        ["AdeptusAves.png", "Adeptus Aves, Grandma's Servitor"]
+        ["AdeptusAves.png", "Adeptus Aves, Grandma's Servitor"],
+		["BugCrusade.png", "Bug Crusade: Loyal Family versus Traitor Bugs"]
     ],
     "Insects": [
         ["Jail.png", "Bug Vacation"],
