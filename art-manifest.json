@@ -181,7 +181,8 @@
         ["Snort.png", "Dwarven Cavalry"],
         ["DwarfUp2.png", "Dwarf up!"],
         ["NavySealRangerClass.png"],
-		["GauntletStart.png", "Hero Gopher Enters the Gauntlet"]
+		["GauntletStart.png", "Hero Gopher Enters the Gauntlet"],
+		["NecromancerChoice.png", "The Necromancer's Choice"]
     ],
     "Sculpture": [
         ["ValentinaMedal.jpg"],
