@@ -148,7 +148,8 @@
 		["CrocodileAspect.png"],
 		["VaultSalesman.png"],
 		["CatFight.png"],
-		["ThatcherSPQR.png", "Thatcher SPQR"]
+		["ThatcherSPQR.png", "Thatcher SPQR"],
+		["Regret.png"]
     ],
     "Warhammer 40k": [
         ["RatThrone.png", "Biomedical Engineering"],
