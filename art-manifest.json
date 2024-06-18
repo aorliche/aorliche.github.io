@@ -190,7 +190,8 @@
         ["DwarfUp2.png", "Dwarf up!"],
         ["NavySealRangerClass.png"],
 		["GauntletStart.png", "Hero Gopher Enters the Gauntlet"],
-		["NecromancerChoice.png", "The Necromancer's Choice"]
+		["NecromancerChoice.png", "The Necromancer's Choice"],
+		["TiamatPetitioner.png", "Petitioner to Tiamat, Evil Goddess of Chromatic Dragons"]
     ],
     "Sculpture": [
         ["ValentinaMedal.jpg"],
