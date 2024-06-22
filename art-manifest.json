@@ -193,7 +193,8 @@
         ["NavySealRangerClass.png"],
 		["GauntletStart.png", "Hero Gopher Enters the Gauntlet"],
 		["NecromancerChoice.png", "The Necromancer's Choice"],
-		["TiamatPetitioner.png", "Petitioner to Tiamat, Evil Goddess of Chromatic Dragons"]
+		["TiamatPetitioner.png", "Petitioner to Tiamat, Evil Goddess of Chromatic Dragons"],
+		["PictureInPicture.png", "WizardVision: Picture in Picture"]
     ],
     "Sculpture": [
         ["ValentinaMedal.jpg"],
