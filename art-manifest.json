@@ -201,7 +201,8 @@
 	"Sci Fi": [
 		["DuneRacing.png", "Dune Buggy vs. Dune Sandworm"],
 		["Aliens.png", "Aliens vs. Colonial Marines"],
-		["RoidWars.png", "Roid Wars: Revenge of the Bodybuilders"]
+		["RoidWars.png", "Roid Wars: Revenge of the Bodybuilders"],
+		["SkavenVats.png"]
 	],
     "Sculpture": [
         ["ValentinaMedal.jpg"],
