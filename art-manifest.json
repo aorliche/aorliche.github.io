@@ -122,6 +122,9 @@
 		["DonQuixote.png"],
 		["GoatAndPigs.png"]
     ],
+	"Even More Non Pig": [
+		["CrocodileFriendship.png"]
+	],
     "Programming": [
         ["Shaving.png", "Shaving with Programming"],
         ["GolangVsBeavers.jpg"],
