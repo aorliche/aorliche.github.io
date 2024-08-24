@@ -137,7 +137,8 @@
         ["Lightkeeper.png", "Programming Mascots Battle the Lightkeeper"],
         ["RoadTrip.png"],
         ["ComputerBugs.png"],
-        ["GolangYaga.png", "Golang \"Baba\" Yaga"]
+        ["GolangYaga.png", "Golang \"Baba\" Yaga"],
+		["ProgrammingJapan.png", "Programming in Japan"]
     ],
     "Anime": [
         ["ModernUndeadCloseup.png"],
