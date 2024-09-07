@@ -123,7 +123,8 @@
 		["GoatAndPigs.png"]
     ],
 	"Even More Non Pig": [
-		["CrocodileFriendship.png"]
+		["CrocodileFriendship.png"],
+		["PigAstronautFriendship.png"]
 	],
     "Programming": [
         ["Shaving.png", "Shaving with Programming"],
