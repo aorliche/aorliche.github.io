@@ -124,7 +124,9 @@
     ],
 	"Even More Non Pig": [
 		["CrocodileFriendship.png"],
-		["PigAstronautFriendship.png"]
+		["PigAstronautFriendship.png"],
+		["GeraltWine.png"],
+		["PigianBargain.png"]
 	],
     "Programming": [
         ["Shaving.png", "Shaving with Programming"],
