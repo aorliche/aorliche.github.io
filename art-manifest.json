@@ -142,7 +142,8 @@
         ["RoadTrip.png"],
         ["ComputerBugs.png"],
         ["GolangYaga.png", "Golang \"Baba\" Yaga"],
-		["ProgrammingJapan.png", "Programming in Japan"]
+		["ProgrammingJapan.png", "Programming in Japan"],
+		["DivineComedy.png", "Programming Comedy"]
     ],
     "Anime": [
         ["ModernUndeadCloseup.png"],
