@@ -157,7 +157,8 @@
         ["GolangYaga.png", "Golang \"Baba\" Yaga"],
 		["ProgrammingJapan.png", "Programming in Japan"],
 		["DivineComedy.png", "Programming Comedy"],
-		["CodingParents.png"]
+		["CodingParents.png"],
+		["Decision.png", "Contemplating a Programming Problem"]
     ],
     "Anime": [
         ["ModernUndeadCloseup.png"],
