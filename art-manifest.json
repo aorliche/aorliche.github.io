@@ -140,7 +140,9 @@
 		["Business.png", "Dog and Cat Business"],
 		["MoonPig.png", "Astronauts and Moon Pig"],
 		["Mars.png"],
-		["Baseball.png", "Playing Baseball"]
+		["Baseball.png", "Playing Baseball"],
+		["Thanksgiving.png"],
+		["AnimalDentistry.png"]
 	],
     "Programming": [
         ["Shaving.png", "Shaving with Programming"],
@@ -185,7 +187,8 @@
 		["Ratman.png", "Ratman and Grubin'"],
 		["NewFavorite.png"],
 		["FandamWing.png", "Gundam Wing, But with Fans"],
-		["MoneyChangers.png"]
+		["MoneyChangers.png"],
+		["YingYangGuys.png", "Ying and Yang"]
     ],
     "Warhammer 40k": [
         ["RatThrone.png", "Biomedical Engineering"],
