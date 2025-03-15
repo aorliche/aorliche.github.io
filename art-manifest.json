@@ -157,7 +157,9 @@
 		["BridgeBattle.png", "Battle on the Bridge"],
 		["ThreePigBand.png"],
 		["RollingX3.png", "Rolling Rolling Rolling"],
-		["Hockey.png"]
+		["Hockey.png"],
+		["Soccer.png"],
+		["Airplane.png"]
 	],
     "Programming": [
         ["Shaving.png", "Shaving with Programming"],
@@ -208,7 +210,8 @@
 		["ChristmasSpirit.png"],
 		["CoolGuy.png", "Cool Guy at the Gym"],
 		["SchoolZombie.png", "Most Likely to Become a Zombie"],
-		["Akira.png"]
+		["Akira.png"],
+		["Logistics.png", "Logistics Zombie"]
     ],
     "Warhammer 40k": [
         ["RatThrone.png", "Biomedical Engineering"],
