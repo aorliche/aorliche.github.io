@@ -213,7 +213,8 @@
 		["CoolGuy.png", "Cool Guy at the Gym"],
 		["SchoolZombie.png", "Most Likely to Become a Zombie"],
 		["Akira.png"],
-		["Logistics.png", "Logistics Zombie"]
+		["Logistics.png", "Logistics Zombie"],
+		["SpaceWestern.png"]
     ],
     "Warhammer 40k": [
         ["RatThrone.png", "Biomedical Engineering"],
