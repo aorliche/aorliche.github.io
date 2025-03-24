@@ -161,7 +161,8 @@
 		["JohnsonSolid.png"],
 		["Soccer.png"],
 		["Airplane.png"],
-		["ChineseDragon.png"]
+		["ChineseDragon.png"],
+		["FamilyRottweiler.png", "The Family Got a Rottweiler"]
 	],
     "Programming": [
         ["Shaving.png", "Shaving with Programming"],
@@ -277,7 +278,8 @@
 		["SkavenVats.png"],
 		["Musk.png", "Elon Musk in Pittsburgh"],
 		["AlligatorSpaceInvader.png", "Alligator, Space Invader, Bowie Tribute"],
-		["PorkCraft.png"]
+		["PorkCraft.png"],
+		["Borg.png", "We are the Pork, Resistance is Futile"]
 	],
     "Sculpture": [
         ["ValentinaMedal.jpg"],
