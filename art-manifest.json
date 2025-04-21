@@ -228,7 +228,8 @@
 		["Logistics.png", "Logistics Zombie"],
 		["SpaceWestern.png"],
 		["Gardening.png"],
-		["SamuraiNinjas.png", "Samurai vs. Ninjas"]
+		["SamuraiNinjas.png", "Samurai vs. Ninjas"],
+		["NotPigs.png"]
     ],
     "Warhammer 40k": [
         ["RatThrone.png", "Biomedical Engineering"],
