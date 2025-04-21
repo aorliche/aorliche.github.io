@@ -171,7 +171,8 @@
 		["CrocodileComing.png"],
 		["ArcheryPractice.png"],
 		["CrocodileJones.png"],
-		["MonkeyIdol.png", "Filthy Lucre"]
+		["MonkeyIdol.png", "Filthy Lucre"],
+		["Perspective.png"]
 	],
     "Programming": [
         ["Shaving.png", "Shaving with Programming"],
@@ -189,7 +190,8 @@
 		["ProgrammingJapan.png", "Programming in Japan"],
 		["DivineComedy.png", "Programming Comedy"],
 		["CodingParents.png"],
-		["Decision.png", "Contemplating a Programming Problem"]
+		["Decision.png", "Contemplating a Programming Problem"],
+		["CompilerExperts.png"]
     ],
     "Anime": [
         ["ModernUndeadCloseup.png"],
@@ -225,7 +227,8 @@
 		["Akira.png"],
 		["Logistics.png", "Logistics Zombie"],
 		["SpaceWestern.png"],
-		["Gardening.png"]
+		["Gardening.png"],
+		["SamuraiNinjas.png", "Samurai vs. Ninjas"]
     ],
     "Warhammer 40k": [
         ["RatThrone.png", "Biomedical Engineering"],
