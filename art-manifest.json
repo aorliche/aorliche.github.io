@@ -178,7 +178,8 @@
 		["Egypt.png", "Grandma in Egypt"],
 		["DragonCabal.png"],
 		["Research.png", "Research Before the Expedition"],
-		["RopeBridge.png", "Rope Bridge and Waterfall"]
+		["RopeBridge.png", "Rope Bridge and Waterfall"],
+		["Scimitars.png", "Don't Bring Two Scimitars to Indiana Jones"]
 	],
     "Programming": [
         ["Shaving.png", "Shaving with Programming"],
@@ -235,7 +236,9 @@
 		["SpaceWestern.png"],
 		["Gardening.png"],
 		["SamuraiNinjas.png", "Samurai vs. Ninjas"],
-		["NotPigs.png"]
+		["NotPigs.png"], 
+		["Fell.png"],
+		["Raksura.png"]
     ],
     "Warhammer 40k": [
         ["RatThrone.png", "Biomedical Engineering"],
@@ -274,7 +277,8 @@
 		["Bugschwitz.png"],
 		["WrongNeighborhood.png"],
 		["MoleMen.png", "Mole Men Construction Group"],
-		["FoodChain.png"]
+		["FoodChain.png"],
+		["FamilyPet.png"]
     ],
     "Dungeons And Dragons": [
         ["Snort.png", "Dwarven Cavalry"],
