@@ -182,7 +182,9 @@
 		["Scimitars.png", "Don't Bring Two Scimitars to Indiana Jones"],
 		["Hamlet.png"],
 		["IndianaHorse.png", "Indiana Jones on a Horse"],
-		["Spelunking.png", "Indiana Jones in a Cave"]
+		["Spelunking.png", "Indiana Jones in a Cave"],
+		["Astronomy.png", "Kepler and Brahe"],
+		["Steampunk.png"]
 	],
     "Programming": [
         ["Shaving.png", "Shaving with Programming"],
