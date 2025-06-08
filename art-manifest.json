@@ -205,7 +205,8 @@
 		["DivineComedy.png", "Programming Comedy"],
 		["CodingParents.png"],
 		["Decision.png", "Contemplating a Programming Problem"],
-		["CompilerExperts.png"]
+		["CompilerExperts.png"],
+		["PairProgramming.png"]
     ],
     "Anime": [
         ["ModernUndeadCloseup.png"],
@@ -254,7 +255,8 @@
         ["AdeptusAves.png", "Adeptus Aves, Grandma's Servitor"],
 		["BugCrusade.png", "Bug Crusade: Loyal Family versus Traitor Bugs"],
 		["CrocodileSorceror.png"],
-		["NeverGoDrukhari.png"]
+		["NeverGoDrukhari.png"],
+		["Anatomy.png", "Me at the Dentist"]
     ],
     "Insects": [
         ["Jail.png", "Bug Vacation"],
@@ -285,7 +287,8 @@
 		["WrongNeighborhood.png"],
 		["MoleMen.png", "Mole Men Construction Group"],
 		["FoodChain.png"],
-		["FamilyPet.png"]
+		["FamilyPet.png"],
+		["ExxonArrakis.png"]
     ],
     "Dungeons And Dragons": [
         ["Snort.png", "Dwarven Cavalry"],
