@@ -293,7 +293,8 @@
 		["FoodChain.png"],
 		["FamilyPet.png"],
 		["ExxonArrakis.png"],
-		["TopBug.png", "Bug Under Fire"]
+		["TopBug.png", "Bug Under Fire"],
+		["Mirror.png", "Mirror, Mirror on the Wall"]
     ],
     "Dungeons And Dragons": [
         ["Snort.png", "Dwarven Cavalry"],
