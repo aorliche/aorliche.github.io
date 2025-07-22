@@ -212,7 +212,8 @@
 		["CompilerExperts.png"],
 		["PairProgramming.png"],
 		["JuniorsAndSeniors.png", "Programming Wisdom"],
-		["Curling.png", "Curling with Golang"]
+		["Curling.png", "Curling with Golang"],
+		["Puppets.png", "Master of Puppets"]
     ],
     "Anime": [
         ["ModernUndeadCloseup.png"],
@@ -252,7 +253,8 @@
 		["SamuraiNinjas.png", "Samurai vs. Ninjas"],
 		["NotPigs.png"], 
 		["Fell.png"],
-		["Raksura.png"]
+		["Raksura.png"],
+		["DetectiveDame.png", "Detective and Dame"]
     ],
     "Warhammer 40k": [
         ["RatThrone.png", "Biomedical Engineering"],
