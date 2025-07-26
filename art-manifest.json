@@ -191,7 +191,8 @@
 		["RockClimbing.png"],
 		["Judo.png"],
 		["Magician.png", "Crocodile Magician"],
-		["Tiger.png", "Indiana Jones Fends Off a Tiger"]
+		["Tiger.png", "Indiana Jones Fends Off a Tiger"],
+		["Distraction.png", "Indiana Jones' Assistant Provides a Distraction"]
 	],
     "Programming": [
         ["Shaving.png", "Shaving with Programming"],
