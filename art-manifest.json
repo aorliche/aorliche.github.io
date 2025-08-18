@@ -196,7 +196,9 @@
 		["Balloon.png", "Up, Up and Away in My Beautiful Balloon"],
 		["Boat.png", "On a Boat in the Jungle"],
 		["Border.png", "Crocodile Jones Meets Soldiers at the Border"],
-		["Talking.png", "Talking with the Natives"]
+		["Talking.png", "Talking with the Natives"],
+		["DDay.png", "D-Day"],
+		["Parachutes.png", "Paratroopers"]
 	],
     "Programming": [
         ["Shaving.png", "Shaving with Programming"],
