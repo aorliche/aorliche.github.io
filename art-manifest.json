@@ -198,7 +198,9 @@
 		["Border.png", "Crocodile Jones Meets Soldiers at the Border"],
 		["Talking.png", "Talking with the Natives"],
 		["DDay.png", "D-Day"],
-		["Parachutes.png", "Paratroopers"]
+		["Parachutes.png", "Paratroopers"],
+		["Beachhead.png"],
+		["Butterfly.png", "Catching Butterflies by the Lake"]
 	],
     "Programming": [
         ["Shaving.png", "Shaving with Programming"],
