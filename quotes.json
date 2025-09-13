@@ -46,5 +46,6 @@
 	"\"The more frequently a word is used, the shorter that word tends to be,<br> and vice versa; the less frequently a word is used, the longer it tends to be.\"<br>&nbsp;&nbsp;-Zipf's Law of Abbreviation",
 	"\"Debugging is twice as hard as writing the code in the first place.<br>Therefore, if you write the code as cleverly as possible, you are,<br> by definition, not smart enough to debug it.\"<br>&nbsp;&nbsp;-Brian Kernighan",
 	"\"Anyone who considers arithmetical methods of producing<br> random digits is, of course, in a state of sin.\"<br>&nbsp;&nbsp;-John von Neumann",
-	"\"Mathematics is an experimental science, and<br> definitions do not come first, but later on.\"<br>&nbsp;&nbsp;-Oliver Heaviside"
+	"\"Mathematics is an experimental science, and<br> definitions do not come first, but later on.\"<br>&nbsp;&nbsp;-Oliver Heaviside",
+	"\"You are not expected to understand this.\"<br>&nbsp;&nbsp;-Dennis Ritchie (Unix source code)"
 ]
