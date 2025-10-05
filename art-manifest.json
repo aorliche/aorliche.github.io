@@ -208,7 +208,8 @@
 		["Gorilla.png", "Meeting the Gorilla King"],
 		["Kangaroo.png", "Boxing a Kangaroo"],
 		["Safari.png"],
-		["UFO.png"]
+		["UFO.png", "UFO"],
+		["Kitchen.png", "Working in a Restaurant"]
 	],
     "Programming": [
         ["Shaving.png", "Shaving with Programming"],
