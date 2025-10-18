@@ -232,7 +232,8 @@
 		["PairProgramming.png"],
 		["JuniorsAndSeniors.png", "Programming Wisdom"],
 		["Curling.png", "Curling with Golang"],
-		["Puppets.png", "Master of Puppets"]
+		["Puppets.png", "Master of Puppets"],
+		["Concurrency.png", "Concurrency with Rust and Golang"]
     ],
     "Anime": [
         ["ModernUndeadCloseup.png"],
@@ -273,7 +274,8 @@
 		["NotPigs.png"], 
 		["Fell.png"],
 		["Raksura.png"],
-		["DetectiveDame.png", "Detective and Dame"]
+		["DetectiveDame.png", "Detective and Dame"],
+		["Cyber.png", "Cyber Family"]
     ],
     "Warhammer 40k": [
         ["RatThrone.png", "Biomedical Engineering"],
@@ -338,7 +340,8 @@
 		["Hoard.png", "Tricksy Hobbits"],
 		["HighRoad.png", "High Road to the Vale of Arryn"],
 		["Baratheon.png", "Renly and Stannis Baratheon"],
-		["Beholder.png", "Family Fights a Beholder"]
+		["Beholder.png", "Family Fights a Beholder"],
+		["Dragon.png", "Crocodile Defends Pig From Dragon"]
     ],
 	"Sci Fi": [
 		["DuneRacing.png", "Dune Buggy vs. Dune Sandworm"],
