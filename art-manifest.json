@@ -238,7 +238,8 @@
 		["JuniorsAndSeniors.png", "Programming Wisdom"],
 		["Curling.png", "Curling with Golang"],
 		["Puppets.png", "Master of Puppets"],
-		["Concurrency.png", "Concurrency with Rust and Golang"]
+		["Concurrency.png", "Concurrency with Rust and Golang"],
+		["Superman.png", "Superman Gopher versus Giant Ferris"]
     ],
     "Anime": [
         ["ModernUndeadCloseup.png"],
@@ -280,7 +281,8 @@
 		["Fell.png"],
 		["Raksura.png"],
 		["DetectiveDame.png", "Detective and Dame"],
-		["Cyber.png", "Cyber Family"]
+		["Cyber.png", "Cyber Family"],
+		["Werewolf.png", "Werewolf Joins the Undead Family"]
     ],
     "Warhammer 40k": [
         ["RatThrone.png", "Biomedical Engineering"],
