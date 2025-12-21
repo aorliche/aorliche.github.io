@@ -102,7 +102,8 @@
 		["Sherrif.png", "Crocodile Sherrif"],
 		["Geometry.png", "Geometree"],
 		["GoldDragon.png", "Golden Ratio Dragon"],
-		["Japan.png", "Samurai Croc and Peasant Pig"]
+		["Japan.png", "Samurai Croc and Peasant Pig"],
+		["TheDuel.png"]
     ],
     "More Non Pig": [
         ["Porkadores.png"],
@@ -135,7 +136,9 @@
 		["GrandmaBarn1.png", "Grandma Relaxing in the Barn"],
 		["VillageSpring.png", "Mom Fetching Water from the Spring"],
 		["DonQuixote.png"],
-		["GoatAndPigs.png"]
+		["GoatAndPigs.png"],
+		["Boyar.png", "Corcodile Boyar"],
+		["Backyard.png"]
     ],
 	"Even More Non Pig": [
 		["CrocodileFriendship.png"],
@@ -287,7 +290,10 @@
 		["Cyber.png", "Cyber Family"],
 		["Werewolf.png", "Werewolf Joins the Undead Family"],
 		["Weightlifting.png", "Undead Weightlifting"],
-		["Band.png", "Undead Band"]
+		["Band.png", "Undead Band"],
+		["UndeadDinner.png"],
+		["Bongos.png"],
+		["UndeadWine.png"]
     ],
     "Warhammer 40k": [
         ["RatThrone.png", "Biomedical Engineering"],
