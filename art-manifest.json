@@ -186,7 +186,8 @@
 		["Soccer.png"],
 		["Airplane.png"],
 		["ChineseDragon.png"],
-		["FamilyRottweiler.png", "The Family Got a Rottweiler"]
+		["FamilyRottweiler.png", "The Family Got a Rottweiler"],
+		["Soliloquy.png"]
 	],
 	"Too Much Non Pig": [
 		["WaterOwlOne.png", "Mom and Grandma Waterskiing"],
@@ -375,7 +376,8 @@
 		["HighRoad.png", "High Road to the Vale of Arryn"],
 		["Baratheon.png", "Renly and Stannis Baratheon"],
 		["Beholder.png", "Family Fights a Beholder"],
-		["Dragon.png", "Crocodile Defends Pig From Dragon"]
+		["Dragon.png", "Crocodile Defends Pig From Dragon"],
+		["Taegan.png", "Taegan and Jirax"]
     ],
 	"Sci Fi": [
 		["DuneRacing.png", "Dune Buggy vs. Dune Sandworm"],
