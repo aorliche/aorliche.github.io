@@ -188,7 +188,9 @@
 		["ChineseDragon.png"],
 		["FamilyRottweiler.png", "The Family Got a Rottweiler"],
 		["Soliloquy.png"],
-		["Whirlpool.png"]
+		["Whirlpool.png"],
+		["TryComic.png"],
+		["Concerto.png", "Pig and Crocodile Concerto"]
 	],
 	"Too Much Non Pig": [
 		["WaterOwlOne.png", "Mom and Grandma Waterskiing"],
@@ -260,7 +262,8 @@
 		["Curling.png", "Curling with Golang"],
 		["Puppets.png", "Master of Puppets"],
 		["Concurrency.png", "Concurrency with Rust and Golang"],
-		["Superman.png", "Superman Gopher versus Giant Ferris"]
+		["Superman.png", "Superman Gopher versus Giant Ferris"],
+		["GopherDune.png"]
     ],
     "Anime": [
         ["ModernUndeadCloseup.png"],
