@@ -270,7 +270,8 @@
 		["Puppets.png", "Master of Puppets"],
 		["Concurrency.png", "Concurrency with Rust and Golang"],
 		["Superman.png", "Superman Gopher versus Giant Ferris"],
-		["GopherDune.png"]
+		["GopherDune.png"],
+		["MissionGo.png", "Mission Impossible: Gopher"]
     ],
     "Anime": [
         ["ModernUndeadCloseup.png"],
