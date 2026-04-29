@@ -401,7 +401,8 @@
 		["PorkCraft.png"],
 		["Borg.png", "We are the Pork, Resistance is Futile"],
 		["GalacticDefender.png", "Crocodile Galactic Defender"],
-		["Stargate.png", "Family Goes Through the Stargate"]
+		["Stargate.png", "Family Goes Through the Stargate"],
+		["RunningFromJaffa.png"]
 	],
     "Sculpture": [
         ["ValentinaMedal.jpg"],
