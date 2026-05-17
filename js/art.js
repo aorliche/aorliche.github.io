@@ -21,6 +21,9 @@ window.addEventListener('load', e => {
     fetch('/art-manifest.json')
     .then(resp => resp.json())
     .then(json => {
+		// Check whether we have loaded gname pictures
+		const loaded = {};
+		let firstGname = true;
 		const galleriesJs = []; 
         for (let gname in json) {
             const nospace = gname.replace(/ /g, ''); 
@@ -31,22 +34,6 @@ window.addEventListener('load', e => {
             const gdiv = document.createElement('div');
             gdiv.classList.add('gallery');
 			galleriesJs.push({h2, hr, gdiv});
-            const imgInfos = json[gname];
-            for (let i=0; i<imgInfos.length; i++) {
-                const info = imgInfos[i];
-                const img = document.createElement('img');
-                img.src = `/images/Art/thumbs/${nospace}/${info[0]}`;
-                img.classList.add('thumb');
-                if (info.length > 1) {
-                    img.alt = info[1];
-                } else {
-                    img.alt = info[0]
-                    .replace(/([A-Z])/g, ' $1')
-                    .replace(/\.\w{3,4}$/, '');
-                }
-                gdiv.appendChild(img);
-                img.addEventListener('click', expand, false);
-            }
             galleries.appendChild(h2);
             galleries.appendChild(hr);
             galleries.appendChild(gdiv);
@@ -57,6 +44,32 @@ window.addEventListener('load', e => {
             artLinks.appendChild(link);
             span.innerText = ' | ';
             artLinks.appendChild(span);
+			// Lazy loading
+			function load(gname) {
+				const imgInfos = json[gname];
+				for (let i=0; i<imgInfos.length; i++) {
+					const info = imgInfos[i];
+					const img = document.createElement('img');
+					img.src = `/images/Art/thumbs/${nospace}/${info[0]}`;
+					img.classList.add('thumb');
+					if (info.length > 1) {
+						img.alt = info[1];
+					} else {
+						img.alt = info[0]
+						.replace(/([A-Z])/g, ' $1')
+						.replace(/\.\w{3,4}$/, '');
+					}
+					gdiv.appendChild(img);
+					img.addEventListener('click', expand, false);
+				}
+				// Mark loaded
+				loaded[gname] = true;
+			}
+			if (firstGname) {
+				load(gname);
+				loaded[gname] = true;
+				firstGname = false;
+			}
 			// Click link: hide everything then unhide the desired gallery
 			link.addEventListener('click', e => {
 				for (let i=0; i<galleriesJs.length; i++) {
@@ -67,6 +80,10 @@ window.addEventListener('load', e => {
 				h2.classList.remove('hidden');
 				hr.classList.remove('hidden');
 				gdiv.classList.remove('hidden');
+				if (loaded[gname]) {
+					return;
+				}
+				load(gname);
 			});
         }
         // Remove last separator
