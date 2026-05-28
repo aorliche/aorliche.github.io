@@ -10,7 +10,7 @@ window.addEventListener('load', e => {
         title.innerText = thumb.alt;
         img.src = `/images/Art/${src}`;
         img.alt = thumb.alt;
-        big.classList.remove('hidden');
+        $('#big').classList.remove('hidden');
     }
     function hide(evt) {
        $('#big').classList.add('hidden'); 
