@@ -21,5 +21,6 @@
     {"name": "generative-fc", "title": "Generative FC", "date": "Wed Dec 13 2023"},
     {"name": "ukb-smt-vis-published", "title": "Somatomotor-Visual Resting State Functional Connectivity Increases in the UKB Longitudinal Cohort Published in Journal of Medical Imaging", "date": "Fri Apr 12 2024"},
     {"name": "demovae-pip", "title": "DemoVAE Model Available as Installable Pip Package", "date": "Tue Jun 18 2024"},
-	{"name": "defense", "title": "Dissertation Defense Successful!", "date": "Wed Dec 4 2024"}
+	{"name": "defense", "title": "Dissertation Defense Successful!", "date": "Wed Dec 4 2024"},
+	{"name": "home-gym", "title": "Home Gym Tour", "date": "Thu Jul 9 2026"}
 ]
