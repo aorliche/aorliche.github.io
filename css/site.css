@@ -4,14 +4,27 @@
     --purp: #d2b6dd;
     --purp-semi: #e0cfe8;
     --purp-light: #eee5f2;
-    --bg: #fff;
-    --charcoal: #333;
+    --bg: white; /*#222;*/
+	--fg: black; /*#fff;*/
+    --charcoal: #333; /*#ddd;*/
+	--link: blue; /*#99f;*/
+	--link-visited: purple; /*#d9d;*/
 }
 
 body {
     font-family: sans-serif;
     font-size: 14px;
     padding: 10px;
+	background-color: var(--bg);
+	color: var(--fg);
+}
+
+a {
+	color: var(--link);
+}
+
+a:visited {
+	color: var(--link-visited);
 }
 
 h1 {
