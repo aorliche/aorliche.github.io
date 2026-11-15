@@ -294,7 +294,8 @@
 		["Concurrency.png", "Concurrency with Rust and Golang"],
 		["Superman.png", "Superman Gopher versus Giant Ferris"],
 		["GopherDune.png"],
-		["MissionGo.png", "Mission Impossible: Gopher"]
+		["MissionGo.png", "Mission Impossible: Gopher"],
+		["Hackerman.png", "Crocodile Hackerman"]
     ],
     "Anime": [
         ["ModernUndeadCloseup.png"],
